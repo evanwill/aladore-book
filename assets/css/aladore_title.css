@@ -1,0 +1,31 @@
+/*styles the title page sections based approximately on the 1914 print edition of Aladore. */
+body {
+  font-family: Georgia, serif;
+}
+div.titleSection {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+h1 {
+  font-family: Georgia, serif;
+  font-size: 1.75em;
+  letter-spacing: 0.25em;
+  text-align: center;
+}
+span.bigTitle {
+  font-size: 2em;
+}
+p {
+  font-size: 0.7em;
+  text-align: center;
+}
+p.author {
+  font-size: 1.45em;
+}
+p.illustrator {
+  font-size: 1.25em;
+}
+p.publisher {
+  font-family: Georgia, serif;
+  font-size: 1.25em;
+}

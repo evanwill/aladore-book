@@ -1,0 +1,85 @@
+/* This CSS follows the approximate style of the 1914 print edition of Aladore. Created by Digital Aladore project 2015. */
+body {
+  font-family: Georgia, serif;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+/* styles for the chapter numbers and titles. */
+h1#bookTitle {
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 0.25em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+h2.chapterHeading {
+  font-family: Georgia, serif;
+  font-size: 1.15em;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+span.chapterNumber {
+  font-size: 1.35em;
+  letter-spacing: 0.1em;
+  line-height: 2.5;
+}
+/*styles for the main body text.  First paragraphs are not indented.  Body paragraphs have a slight margin and line height. */
+p {
+  text-indent: 1.2em;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: justify;
+  font-family: Georgia, serif;
+}
+p.firstParagraph {
+  text-indent: 0;
+  margin-top: 0.5em;
+}
+p#end {
+  text-align: center;
+  margin-top: 5em;
+  font-size: 1.1em;
+}
+/* styles for the poetry in the text */
+div.stanza {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  line-height: 1;
+  text-align: left;
+  font-size: 0.95em;
+}
+p.epigraphIndent {
+  margin-left: 2em;
+  font-style: italic;
+}
+p.epigraphAuthor {
+  margin-left: 6.5em;
+  margin-top: 0.5em;
+}
+p.poemLineIndent1 {
+  margin-left: 2em;
+  word-spacing: 0.2em;
+}
+p.poemLineIndent2 {
+  margin-left: 3.25em;
+  word-spacing: 0.2em;
+}
+/* styles for the illustrations: attempts to make the image fit on the device and not break across pages.  */
+div.illustration {
+  text-indent: 0;
+  text-align: center;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  width: 95%;
+  page-break-before: auto;
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+img {
+  width: 95%;
+}
