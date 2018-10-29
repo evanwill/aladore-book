@@ -1,0 +1,47 @@
+---
+layout: default
+---
+{% assign chapters = site.html_pages | where: "layout", "chapter" %}
+{% for c in chapters %}
+{% if c.url == page.url %}
+{% unless forloop.first %}
+  {% assign prev = forloop.index0 | minus: 1 %}
+  {% assign prevurl = chapters[prev].url %}
+  {% assign prevnum = chapters[prev].chapter %}
+  {% assign prevtitle = chapters[prev].title %}
+{%- endunless -%}
+{% unless forloop.last %}
+  {% assign next = forloop.index0 | plus: 1 %}
+  {% assign nexturl = chapters[next].url %}
+  {% assign nextnum = chapters[next].chapter %}
+  {% assign nexttitle = chapters[next].title %}
+{%- endunless -%}
+{%- endif -%}
+{%- endfor -%}
+<div class="container content">
+  <div id="chapter-nav">
+    <p>
+    {% if prevurl %}<a href="{{ prevurl | relative_url }}" class="prev"> ❮ {{ prevnum }}</a> |{% endif %}
+    {{ page.chapter }}
+    {% if nexturl %}| <a href="{{ nexturl | relative_url }}" class="nxt">{{ nextnum }} ❯</a>{% endif %}</p>
+  </div>
+
+  <div class="page">
+
+    <article>
+      {% unless page.frontmatter %}<h1 class="page-title">Chapter {{ page.chapter }}<br> {{ page.title }}</h1>{% endunless %}
+      {{ content }}
+    </article>
+
+    <div id="chapter-buttons">
+      {% if prevurl %}<div class="lesson-nav prev">
+          <a href="{{ prevurl | relative_url }}"> ❮ {{ prevtitle }}</a>
+      </div>{% endif %}
+      <div class="lesson-nav toc"><a href="{{ '/text/01toc.html' | relative_url }}">toc</a></div>
+      {% if nexturl %}<div class="lesson-nav next">
+          <a href="{{ nexturl | relative_url }}" >{{nexttitle }} ❯</a>
+      </div>{% endif %}
+    </div>
+
+  </div>
+</div>

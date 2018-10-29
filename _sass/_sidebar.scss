@@ -1,0 +1,98 @@
+/* side bar */
+.site-nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: $background-color;    
+    /* hide checkbox */
+    .nav-trigger {
+        display: none;
+    }
+    /* style menu icon */
+    label[for="nav-trigger"] {
+        display: block;
+        float: left;
+        width: 40px;
+        height: 40px;
+        //z-index: 2;
+        cursor: pointer;
+        border-top: solid 5px $border-color;
+    }
+    .menu-icon {
+        display: block;
+        width: 40px;
+        height: 40px;
+        padding: 13px;
+        line-height: 0;
+        text-align: center;
+        > svg path {
+            fill: #505050;//$grey-color-dark;
+        }
+    }
+    /* use css to hide or show menu via checkbox */
+    input ~ #side-menu {
+        //clear: both;
+        display: none;
+    }
+    input:checked ~ #side-menu {
+        display: block;
+        padding-bottom: 5px;
+    }
+    input:checked ~ label { border: none; }    
+}
+/* chapter contents */
+.chapters {
+    .chapter-trigger {
+        display: none;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+      }
+    /* use css to hide or show via checkbox */
+    input ~ .chapter-contents {
+        //clear: both;
+        display: none;
+      }
+      input:checked ~ .chapter-contents {
+        display: block;
+        padding-bottom: 5px;
+      }
+}
+/* sidebar styles */
+#side-menu {
+    transition: all .3s ease-in-out;
+    background: $menu-background;
+    padding-left: 55px;
+    a {
+        text-decoration: none;
+        color: $menu-link-color;
+        border-radius: 0px;
+    }
+    .menu-title {
+        padding: 1rem;
+        border-top: 1px solid rgba(255,255,255,.1);
+        border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+    .menu-item {
+        padding: .5rem 1rem;
+        border-top: 1px solid rgba(255,255,255,.1);
+        display: block;
+    }
+    /* highlight current location */
+    .active {
+        text-decoration: none;
+        background-color: rgba(255,255,255,.1);
+        border-color: transparent;
+    }
+    /* chapter styles */
+    .chapter {
+        cursor: pointer;
+    }
+    .active-chapter {
+        .chapter-contents {
+            display: block;
+        }
+    }
+
+}

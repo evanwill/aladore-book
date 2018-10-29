@@ -1,0 +1,39 @@
+# aladore-book
+# based on basic-book, a Jekyll template for a web-book, by Evan Will, https://github.com/evanwill/basic-book
+
+# site info
+title: Aladore
+tagline: Henry Newbolt (1914)
+description: "a web based digital edition of Aladore by Henry Newbolt (1914)"
+keywords: fantasy, classic, forgotten fantasy, allegorical fantasy, romance, youth, duty, quest
+# when the site was made
+site-date: 2018
+# creator of the site
+editors: ["Evan Will"]
+
+# book info
+# metadata about the original print book
+authors: ["Henry Newbolt"]
+illustrators: ["Alice Hylton"]
+publisher: William Blackwood and Sons
+pub-location: Edinburgh and London
+pub-date: 1914
+
+# urls
+url: https://evanwill.github.io
+baseurl: /aladore-book
+github-repo: https://github.com/evanwill/aladore-book
+
+# defaults
+defaults:
+  - scope:
+      path: "text"
+    values:
+      layout: chapter
+
+# ignore stuff
+exclude: [docs]
+
+# output settings
+sass:
+    style: compressed
