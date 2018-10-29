@@ -1,0 +1,10 @@
+---
+# generate full text html edition
+---
+{%- assign chapters = site.html_pages | where: "layout", "chapter" -%}
+{% for c in chapters %}
+{% unless c.frontmatter %}<h2>CHAPTER {{ c.chapter }} {{ c.title }}</h2>{% endunless %}
+
+{{ c.content }} 
+
+{% endfor %}

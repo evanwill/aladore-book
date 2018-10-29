@@ -1,0 +1,7 @@
+---
+# generate chapter csv
+---
+{%- assign chapters = site.html_pages | where: "layout", "chapter" -%}
+chapter_number,chapter_title,chapter_text
+{% for c in chapters %}"{{ c.chapter }}","{{ c.title }}","{{ c.content | strip_html | remove: '"' | strip }}"
+{% endfor %}
