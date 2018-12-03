@@ -16,6 +16,7 @@ layout: default
   {% assign nextnum = chapters[next].chapter %}
   {% assign nexttitle = chapters[next].title %}
 {%- endunless -%}
+{%- break -%}
 {%- endif -%}
 {%- endfor -%}
 <div class="container content">
