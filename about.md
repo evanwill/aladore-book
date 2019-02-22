@@ -8,7 +8,7 @@ layout: page
 Despite being republished in the 1970's and 80's in "forgotten fantasy" paperbacks, Aladore is not well known or popular.
 The book is now in the public domain and there are a few digitized copies available for free download from repositories such as [Internet Archive](https://archive.org/details/aladoren00newbuoft/page/n7).
 However, these are all PDFs of scanned materials with poor quality OCR.
-The out-of-date PDF and automatically generated e-book formats do not provide a satisfactory reading experience on many devices.
+The out-of-date, poorly optimized PDF and automatically generated e-book formats do not provide a satisfactory reading experience on many devices.
 
 `aladore-book` is a web based digital edition of *Aladore* with text derived from the [Digital Aladore](https://digitalaladore.wordpress.com/) project (2014).
 
