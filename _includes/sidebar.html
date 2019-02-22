@@ -15,8 +15,10 @@
     </div>
 
     <a class="menu-item{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <a class="menu-item{% if page.url == '/about.html' %} active{% endif %}" href="{{ '/about.html' | relative_url }}">About</a>
+    <a class="menu-item{% if page.url == '/data/' %} active{% endif %}" href="{{ '/data/' | relative_url }}">Data</a>
+    <a class="menu-item{% if page.url == '/data/search.html' %} active{% endif %}" href="{{ '/data/search.html' | absolute_url }}">Search</a>
     <a class="menu-item{% if page.url == '/text/01toc.html' %} active{% endif %}" href="{{ '/text/01toc.html' | relative_url }}">Table of Contents</a>
-    
     <ul class="chapters">
     {% for p in site.pages %}{% if p.chapter %}
       <li class="menu-item chapter{% if page.chapter == p.chapter %} active active-chapter{% endif %}">
@@ -26,9 +28,6 @@
     {% endif %}{% endfor %}
     </ul> 
 
-    <a class="menu-item{% if page.url == '/about.html' %} active{% endif %}" href="{{ '/about.html' | relative_url }}">About</a>
-    <a class="menu-item{% if page.url == '/data/' %} active{% endif %}" href="{{ '/data/' | relative_url }}">Data</a>
-    <a class="menu-item{% if page.url == '/data/search.html' %} active{% endif %}" href="{{ '/data/search.html' | absolute_url }}">Search</a>
     <a class="menu-item" href="{{ site.github-repo }}">Source Code</a>
 
     <div class="menu-title">
