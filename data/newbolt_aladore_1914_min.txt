@@ -1,0 +1,8 @@
+---
+# generate minimized plain text edition
+---
+{%- assign chapters = site.html_pages | where: "layout", "chapter" -%}
+{%- for c in chapters -%}
+{%- unless c.frontmatter -%}
+{{ c.content | strip_html | normalize_whitespace }} 
+{% endunless %}{% endfor %}
