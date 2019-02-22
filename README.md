@@ -8,3 +8,5 @@ Page images of both editions were OCRed using Tesseract.
 The digital transcripts were collated and edited for accuracy.
 Also available as an [epub edition](https://archive.org/details/AladoreHenryNewbolt3).
 
+Aladore text is Public Domain. 
+Aladore-book Jekyll project is licensed MIT, copyright EvanWill 2019.
