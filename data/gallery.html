@@ -1,4 +1,13 @@
 ---
-title: Image gallery
+title: Illustrations gallery
 layout: page 
 ---
+
+{% for i in site.data.illustrations %}
+<figure >
+    <img src="{{ i.filename | prepend: '/assets/images/' | absolute_url }}" alt="Illustration: {{ i.title }}">
+    <figcaption>{{ i.title }}<br>
+    <a href="{{ i.link | prepend: '/text/' | relative_url }}">View in book</a> | <a href="{{ i.filename | prepend: '/assets/images/' | absolute_url }}">Download</a>
+    </figcaption>
+</figure>
+{% endfor %}
