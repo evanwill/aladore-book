@@ -1,0 +1,6 @@
+---
+# generate list of images
+---
+img_title,link
+{% for i in site.data.illustrations %}"{{ i.title }}",{{ i.filename | prepend: '/assets/images/' | absolute_url }}
+{% endfor %}
