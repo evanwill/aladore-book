@@ -1,0 +1,7 @@
+---
+# generate wordcount of each chapter
+---
+{%- assign chapters = site.html_pages | where: "layout", "chapter" -%}
+chapter,wordcount
+{% for c in chapters %}{% unless c.frontmatter %}{{ c.chapter }},{{ c.content | strip_html | normalize_whitespace | number_of_words }}
+{% endunless %}{% endfor %}

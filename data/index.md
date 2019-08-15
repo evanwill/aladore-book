@@ -26,6 +26,7 @@ Stats (discounting front matter and chapter headings)
 - Character count: 305,329
 - Line count: 477 (approximately paragraphs)
 - Illustrations: 15
+- Chapter word counts: [wordcounts.csv]({{ '/data/wordcounts.csv' | absolute_url }})
 
 Source texts
 
