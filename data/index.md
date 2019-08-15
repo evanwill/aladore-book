@@ -10,6 +10,7 @@ layout: page
 - Plain text: [newbolt_aladore_1914.txt]({{ '/data/newbolt_aladore_1914.txt' | absolute_url }})
 - Minimized plain text: [newbolt_aladore_1914_min.txt]({{ '/data/newbolt_aladore_1914_min.txt' | absolute_url }}) (*no front matter, no line breaks except between chapters*)
 - CSV: [newbolt_aladore_1914.csv]({{ '/data/newbolt_aladore_1914.csv' | absolute_url }}) (*each chapter is a row, with columns chapter_number, chapter_title, chapter_text*)
+- Mallet: [mallet.txt]({{ '/data/mallet.txt' | absolute_url }}) (*each paragraph is a "document" in the standard Mallet tab delimited format: ID tab label tab text. This file is ready for upload to [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/)*)
 
 ## Other editions
 
