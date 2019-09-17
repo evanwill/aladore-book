@@ -6,57 +6,54 @@ layout: page
 This page provides a basic search of book content.
 *Note: it may take a few seconds to load!* 
 
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-
 <input type="text" size="15" id="lunr-search" placeholder="Search..." aria-label="search">
 <input class="button-all" type="button" onclick="lunr_search();" value=" Search ">
 
+<p id="count"></p>
 <ul id="search-results"></ul>
 
 <hr>
 
+Tips: search fields `title:foo` or `text:foo`, or use wildcards `foo*`.
+
 Built using [Lunr.js](https://lunrjs.com/).
 
+<script src="{{ '/assets/js/lunr.min.js' | absolute_url }}"></script>
+<script src="{{ '/assets/js/lunr-store.js' | absolute_url }}"></script>
 <script>
-// add documents
-var documents = { 
-    {% for post in site.documents %}
-    "{{ post.url | absolute_url | xml_escape }}": 
-    { 
-      "url": "{{ post.url | absolute_url | xml_escape }}",
-      "title": "{{ post.title | xml_escape }}",
-      "text": {{ post.content | strip_html | normalize_whitespace | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-};
-// create index
+/* initialize lunr index */
 var idx = lunr(function () {
-  this.ref('url')
+  this.ref('id')
   this.field('title')
   this.field('text')
-  for (var key in documents) {
-    this.add(documents[key])
+  for (var item in store) {
+    this.add({
+      title: store[item].title,
+      text: store[item].text,
+      id: item
+    })
   }
 });
-// do search
-function displayResults(results) {
-  var searchResults = document.getElementById('search-results');
-  if (results.length) { // Are there any results?
+/* search function */
+function lunr_search () {
+  var resultDiv = document.getElementById('search-results');
+  var resultCount = document.getElementById('count');
+  var query = document.getElementById('lunr-search').value;
+  /* basic search that supports operators */
+  var results = idx.search(query); 
+  /* display results */
+  resultDiv.innerHTML = '';
+  resultCount.innerHTML = results.length + ' Result(s) found</p>';
+  if (results.length) {
     var appendString = '';
-    for (var i = 0; i < results.length; i++) {  // Iterate over the results
-      var link = results[i].ref;
-      var title = documents[results[i].ref].title;
-      var preview = documents[results[i].ref].text.substring(0,150);
-      appendString += '<li><a href="' + link + '">' + title + '</a><br>' + preview + '... </li>';
+    for (item in results) {
+      var ref = results[item].ref;
+      var searchItem = '<li><a href="' + store[ref].url + '">' + store[ref].title + '</a><br>' + store[ref].text.substring(0,150) + '... </li>';
+      appendString += searchItem;
     }
-    searchResults.innerHTML = appendString;
+    resultDiv.innerHTML = appendString;
   } else {
-    searchResults.innerHTML = '<li>No results found</li>';
+    resultDiv.innerHTML = '<li>No results found</li>';
   }
-}
-function lunr_search() {
-    var query = document.getElementById("lunr-search").value;
-    var results = idx.search(query);
-    displayResults(results);
 }
 </script>
