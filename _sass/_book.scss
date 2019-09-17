@@ -27,7 +27,7 @@
     text-align: center;
     a { 
         color: $grey-color;
-        padding-bottom: 100%;
+        //padding-bottom: 100%;
     }
     .lesson-nav {
         display: table-cell;
@@ -49,6 +49,11 @@
     .toc {
         width: 12%;
     }
+}
+#chapter-buttons:after {
+    content: "";
+    display: table;
+    clear: both;    
 }
 article {
     ::-moz-selection {
