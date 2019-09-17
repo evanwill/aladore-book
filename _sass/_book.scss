@@ -19,29 +19,31 @@
     a { color: $grey-color; }
 }
 #chapter-buttons {
-    display: block;
+    display: table;
+    width: 100%;
     margin: 2rem auto 0;
     border-top: solid 1px $grey-color;
     text-align: center;
     a { 
         color: $grey-color;
-        display: inline-block;
-        width: 100%;
+        padding-bottom: 100%;
     }
     .lesson-nav {
-        display: inline-block;
-        padding: 2px 5px;
+        display: table-cell;
+        padding-top: 5px;
         font-size: 16px;
     }
     .prev { 
-        float: left;
         width: 44%;
         border-right: solid 1px $grey-color;
+        padding-right: 8px;
+        text-align: right;
     }
     .next { 
-        float: right;
         width: 44%;
         border-left: solid 1px $grey-color;
+        padding-left: 8px;
+        text-align: left;
     }
     .toc {
         width: 12%;
