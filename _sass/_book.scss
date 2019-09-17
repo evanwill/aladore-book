@@ -16,6 +16,7 @@
     font-size: 16px;
     text-align: right;
     line-height: 1.25;
+    margin-bottom: 2rem;
     a { color: $grey-color; }
 }
 #chapter-buttons {
@@ -48,11 +49,6 @@
     .toc {
         width: 12%;
     }
-}
-#chapter-buttons:after {
-    content: "";
-    display: table;
-    clear: both;    
 }
 article {
     ::-moz-selection {
