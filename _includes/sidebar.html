@@ -14,6 +14,7 @@
       <p>{{ site.title }} | {{ site.description }}</p>
     </div>
 
+    {% if page.layout == "chapter" %}<span class="menu-item" id="annotateBtn">Annotation (hypothes.is)</span>{% endif %}
     <a class="menu-item{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
     <a class="menu-item{% if page.url == '/about.html' %} active{% endif %}" href="{{ '/about.html' | relative_url }}">About</a>
     <a class="menu-item{% if page.url == '/data/' %} active{% endif %}" href="{{ '/data/' | relative_url }}">Data</a>
@@ -37,3 +38,17 @@
   </div>
 
 </nav>
+{% if page.layout == "chapter" %}
+<script> 
+document.getElementById("annotateBtn").addEventListener("click", function() { 
+  window.hypothesisConfig = function () {
+    return {
+      "openSidebar": true
+    };
+  };
+  var hypothesis = document.createElement('script');
+  hypothesis.setAttribute('src','https://hypothes.is/embed.js');
+  document.head.appendChild(hypothesis);
+  document.getElementById("nav-trigger").checked = false;
+});
+</script>{% endif %}
