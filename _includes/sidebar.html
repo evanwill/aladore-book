@@ -15,6 +15,7 @@
     </div>
 
     <a class="menu-item{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    {% if page.layout == "chapter" %}<span class="menu-item" id="annotateBtn">Annotate Page</span>{% endif %}
     <a class="menu-item{% if page.url == '/about.html' %} active{% endif %}" href="{{ '/about.html' | relative_url }}">About</a>
     <a class="menu-item{% if page.url == '/data/' %} active{% endif %}" href="{{ '/data/' | relative_url }}">Data</a>
     <a class="menu-item{% if page.url == '/data/search.html' %} active{% endif %}" href="{{ '/data/search.html' | absolute_url }}">Search</a>
@@ -37,3 +38,11 @@
   </div>
 
 </nav>
+{% if page.layout == "chapter" %}
+<script> 
+document.getElementById("annotateBtn").addEventListener("click", function() { 
+  var hypothesis = document.createElement('script');
+  hypothesis.setAttribute('src','https://hypothes.is/embed.js');
+  document.head.appendChild(hypothesis);
+});
+</script>{% endif %}
