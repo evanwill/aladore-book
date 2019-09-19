@@ -19,7 +19,7 @@ This page provides a basic search of book content.
 Advanced Search Tips: 
 
 - search fields `title:foo` or `text:foo`
-- use wildcards `foo*`
+- use wildcards `foo*` or `*oo`
 - fuzzy matching `foo~1`
 - must contain `+foo`
 - must not contain `-foo`.
