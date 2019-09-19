@@ -6,17 +6,25 @@ layout: page
 This page provides a basic search of book content.
 *Note: it may take a few seconds to load!* 
 
-<input type="text" size="15" id="lunr-search" placeholder="Search..." aria-label="search">
-<input class="button-all" type="button" onclick="lunr_search();" value=" Search ">
+<form id="searchform" onsubmit="lunr_search(); return false">
+  <input type="text" size="18" id="lunr-search" class="form-all" placeholder="Search text..." aria-label="search">
+  <input class="button-all" type="button" value="Search">
+</form>
 
 <p id="count"></p>
 <ul id="search-results"></ul>
 
 <hr>
 
-Tips: search fields `title:foo` or `text:foo`, or use wildcards `foo*`.
+Advanced Search Tips: 
 
-Built using [Lunr.js](https://lunrjs.com/).
+- search fields `title:foo` or `text:foo`
+- use wildcards `foo*`
+- fuzzy matching `foo~1`
+- must contain `+foo`
+- must not contain `-foo`.
+
+Built using [Lunr.js](https://lunrjs.com/){:target='_blank'}.
 
 <script src="{{ '/assets/js/lunr.min.js' | absolute_url }}"></script>
 <script src="{{ '/assets/js/lunr-store.js' | absolute_url }}"></script>

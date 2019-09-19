@@ -5,11 +5,28 @@
         list-style: none;
         display: inline-block;
         border: solid 1px $grey-color;
-        //border-radius: 5px;
         padding: 2px 5px;
         margin: 4px 2px 2px 2px;
     }
 }
+.button-all {
+    border: solid 1px $grey-color;
+    background-color: none;
+    padding: 2px 5px;
+    margin: 4px 2px 2px 2px;
+    font-size: 20px;
+    &:focus {
+        outline:none;
+    }  
+}
+.form-all {
+    background-color: $background-color;
+    border: solid 1px $grey-color;
+    border-radius: 0px;
+    font-size: 20px;
+    padding: 2px 5px;
+}
+
 /* chapter navigation */
 #chapter-nav {
     color: $grey-color;
@@ -27,7 +44,6 @@
     text-align: center;
     a { 
         color: $grey-color;
-        //padding-bottom: 100%;
     }
     .lesson-nav {
         display: table-cell;
