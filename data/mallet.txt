@@ -2,7 +2,7 @@
 # generate text in Mallet input format
 # each paragraph = one "document"
 ---
-{%- assign chapters = site.html_pages | where_exp: "i", "i.layout == 'chapter' and i.frontmatter == null" -%}
+{%- assign chapters = site.html_pages | where: "layout","chapter" | where: "frontmatter", null -%}
 {%- for c in chapters -%}
 {%- assign number = forloop.index -%}
 {%- assign paragraphs = c.content | split: "</p>" -%}
