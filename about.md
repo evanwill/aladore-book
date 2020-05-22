@@ -27,7 +27,7 @@ This text is also freely available as an [epub edition](https://archive.org/deta
 The site was developed from the [basic-book](https://github.com/evanwill/basic-book) template, using [Jekyll](http://jekyllrb.com/) static site generator and hosted on [GitHub Pages](https://pages.github.com/).
 
 The text is stored as a series of plain text files in Markdown format, one for each chapter.
-This text is used to generate both the web pages of the book and [data derivatives]({{ `/data/' | absolute_url }}) for importing into other tools for analysis.
+This text is used to generate both the web pages of the book and [data derivatives]({{ '/data/' | absolute_url }}) for importing into other tools for analysis.
 
 The source code is hosted in a GitHub repository, [aladore-book]({{ site.github-repo }}).
 This allows the book to be easily shared, adapted, and modified by anyone--or used as a template for creating other books.
