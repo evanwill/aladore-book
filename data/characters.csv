@@ -1,0 +1,9 @@
+---
+# generate character counts
+---
+{%- include utilities/get_full_text.html -%}
+{% comment %} split text on character {% endcomment %}
+{%- assign unique_char = full_text | downcase | normalize_whitespace | split: "" | array_count_uniq | sort -%}
+character,count
+{% for w in unique_char %}"{{ w[0] }}",{{ w[1] }}
+{% endfor %}
