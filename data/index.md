@@ -8,7 +8,7 @@ layout: page
 - [Illustration gallery]({{ '/data/gallery.html' | absolute_url }}) (or [image list CSV]({{ '/data/image_list.csv' | absolute_url }}))
 - HTML full text: [newbolt_aladore_1914.html]({{ '/data/newbolt_aladore_1914.html' | absolute_url }})
 - Plain text: [newbolt_aladore_1914.txt]({{ '/data/newbolt_aladore_1914.txt' | absolute_url }})
-- Minimized plain text: [newbolt_aladore_1914_min.txt]({{ '/data/newbolt_aladore_1914_min.txt' | absolute_url }}) (*no front matter, no line breaks except between chapters*)
+- Minimized plain text: [newbolt_aladore_1914_min.txt]({{ '/data/newbolt_aladore_1914_min.txt' | absolute_url }}) (*no front matter, no chapter names, no line breaks except between chapters*)
 - CSV: [newbolt_aladore_1914.csv]({{ '/data/newbolt_aladore_1914.csv' | absolute_url }}) (*each chapter is a row, with columns chapter_number, chapter_title, chapter_text*)
 - Mallet: [mallet.txt]({{ '/data/mallet.txt' | absolute_url }}) (*each paragraph is a "document" in the standard Mallet tab delimited format: ID tab label tab text. This file is ready for upload to [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/)*)
 
@@ -34,3 +34,7 @@ Source texts
 - EvanWill, *Digital Aladore* project, 2014, <https://digitalaladore.wordpress.com>
 - Henry Newbolt, *Aladore*, Edinburgh: William Blackwood and Sons, 1914. (digitized by Internet Archive, from University of Toronto, "scanner-katie-lawson", 2006, <https://archive.org/details/aladoren00newbuoft/page/n8>)
 - Henry Newbolt, *Aladore*, New York: E.P. Dutton & Company, 1915. (digitized by Internet Archive, from University of California, "scanner-melissa-cunningham", 2006, <https://archive.org/details/aladorehen00newbrich/page/n8>)
+
+## Source Code
+
+- [aladore-book]({{ site.github-repo }})
