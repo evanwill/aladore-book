@@ -1,0 +1,64 @@
+---
+title: Aladore Word Cloud
+layout: page-full-width
+---
+{% comment %} configure cloud options {% endcomment %}
+{%- assign countMin = 30 -%}
+{%- assign stopwords = "a;about;above;across;after;afterwards;again;against;all;almost;alone;along;already;also;although;always;am;an;and;another;any;anyone;anything;anyway;anywhere;are;around;as;at;back;be;because;been;before;both;but;by;can;cannot;could;did;didn't;do;does;doesn't;don't;done;each;either;else;elsewhere;enough;even;ever;every;everyone;everything;everywhere;except;few;for;from;get;give;go;had;has;have;he;hence;her;here;hers;herself;him;himself;his;how;however;i;if;in;indeed;into;is;it;its;itself;made;many;may;me;meanwhile;might;mine;more;moreover;most;mostly;much;must;my;myself;neither;never;nevertheless;no;nobody;none;noone;nor;not;nothing;now;nowhere;o;of;off;often;on;once;only;onto;or;other;others;otherwise;our;ours;ourselves;out;over;own;perhaps;put;rather;same;see;seem;seemed;seeming;seems;several;she;should;since;so;some;somehow;someone;something;sometime;sometimes;somewhere;still;such;take;than;that;the;thee;their;them;themselves;then;thence;there;thereafter;thereby;therefore;therein;thereupon;these;they;thing;this;those;thou;though;three;through;throughout;thru;thus;thy;to;too;until;upon;us;very;was;we;well;were;what;whatever;when;whenever;where;wherever;whether;which;while;who;whoever;whom;whose;why;will;with;within;without;would;yet;you;your;yours;yourself;yourselves" | split: ";" -%}
+
+<hr>
+
+<ul id="cloud" class="text-center my-4 bg-light border rounded p-2"></ul>
+
+{% include utilities/get_full_text.html %}
+{% include utilities/remove_punctuation.html %}
+{% comment %} split text {% endcomment %}
+{%- assign words = full_text | downcase | normalize_whitespace | split: " " -%}
+{%- assign unique_words = words | array_count_uniq | sort | where_exp: 'w','w[1] >= countMin' -%}
+{% comment %} remove stopwords {% endcomment %}
+{% for s in stopwords %}
+{%- assign unique_words = unique_words | where_exp: 'w','w[0] != s' -%}
+{%- endfor -%}
+
+<script>
+    /* words + count */
+    var words = [
+        {% for w in unique_words %}[{{ w[0] | jsonify }}, {{ w[1] | jsonify }}]{% unless forloop.last %}, {% endunless %}{% endfor %}
+    ];
+
+    {% if stopwords %}/* apply stopwords */
+    /*
+    var stopWords = {{ stopwords | downcase | split: ';' | jsonify }};
+    words = words.filter(function(a) { return stopWords.indexOf(a[0]) < 0;});
+    */
+    {% endif %}
+    /* calculate max size */
+    var counts = words.map(function(obj){ return obj[1]; });
+    var countMax = counts.reduce(function(a, b) { return Math.max(a, b); });
+    var cloud = document.getElementById("cloud");
+    /* Fisher-Yates shuffle https://bost.ocks.org/mike/shuffle/ */
+    /* function shuffle(array) {
+        var m = array.length, t, i;
+        while (m) {
+        i = Math.floor(Math.random() * m--);
+        t = array[m];
+        array[m] = array[i];
+        array[i] = t;
+        }
+        return array;
+    } */
+    function mapSize(x) { return Math.round(x * 9 / countMax + 1); }
+    /* create cloud */
+    function makeGrid(array) {
+        var i, size;
+        var items = "";
+        //shuffle(array);
+        for (i = 0; i < array.length; i++) {
+            size = mapSize(array[i][1]);
+            items += '<li class="cloud' + size + '">' + array[i][0] + '</li>';
+        }
+        cloud.innerHTML = items;
+    }
+    makeGrid(words);
+
+</script>
