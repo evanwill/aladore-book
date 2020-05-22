@@ -1,0 +1,51 @@
+/* title page */ 
+.titleSection {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    h1 {
+        font-size: 1.75em;
+        letter-spacing: 0.25em;
+        text-align: center;
+    }
+    p {
+        font-size: 0.7em;
+        text-align: center;
+    }
+    .bigTitle {
+        font-size: 2em;
+    }
+    .author {
+        font-size: 1.45em;
+    }
+    .illustrator {
+        font-size: 1.25em;
+    }
+    .publisher {
+        font-size: 1.25em;
+    }
+}
+/* styles for epigraph */
+.stanza {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 1;
+    text-align: left;
+    font-size: 0.95em;
+}
+.epigraphIndent {
+    margin-left: 2em;
+    font-style: italic;
+}
+.epigraphAuthor {
+    margin-left: 6.5em;
+    margin-top: 0.5em;
+}
+/* styles for inline poetry */ 
+.poemLineIndent1 {
+    margin-left: 2em;
+    word-spacing: 0.2em;
+}
+.poemLineIndent2 {
+    margin-left: 3.25em;
+    word-spacing: 0.2em;
+}
