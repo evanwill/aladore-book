@@ -6,7 +6,7 @@ layout: page
 ## Download 
 
 - [Illustration gallery]({{ '/data/gallery.html' | absolute_url }}) (or [image list CSV]({{ '/data/image_list.csv' | absolute_url }}))
-- HTML full text: [newbolt_aladore_1914.html]({{ '/data/newbolt_aladore_1914.html' | absolute_url }})
+- HTML full text: [newbolt_aladore_1914.html]({{ '/data/newbolt_aladore_1914.html' | absolute_url }}) (*minimal html with full text content*)
 - Plain text: [newbolt_aladore_1914.txt]({{ '/data/newbolt_aladore_1914.txt' | absolute_url }})
 - Minimized plain text: [newbolt_aladore_1914_min.txt]({{ '/data/newbolt_aladore_1914_min.txt' | absolute_url }}) (*no front matter, no chapter names, no line breaks except between chapters*)
 - CSV: [newbolt_aladore_1914.csv]({{ '/data/newbolt_aladore_1914.csv' | absolute_url }}) (*each chapter is a row, with columns chapter_number, chapter_title, chapter_text*)
@@ -21,10 +21,29 @@ layout: page
 
 ## Metadata
 
+{% comment %} Capture list of characters to remove (punctionation) {% endcomment %} 
+{%- capture remove_list -%}~ ` ! # % ^ * ( ) + = { } [ ] | \ : ; . , < > / ? " —{%- endcapture -%}
+{% comment %} Capture full text {% endcomment %} 
+{%- assign chapters = site.html_pages | where: "layout", "chapter" -%}
+{%- capture full_text -%}
+{%- for c in chapters -%}
+{%- unless c.frontmatter -%}
+{{ c.content | strip_html | normalize_whitespace }} {% endunless %}{% endfor %}{%- endcapture -%}
+{% comment %} remove stuff {% endcomment %} 
+{%- assign remove_list = remove_list | split: " " -%}
+{%- for r in remove_list -%}
+{%- assign full_text = full_text | replace: r, " " -%}
+{%- endfor -%}
+{%- assign full_text = full_text | downcase | normalize_whitespace -%}
+{%- assign word_count = full_text | number_of_words -%}
+{%- assign unique_words = full_text | split: " " | uniq | size -%}
+{%- assign character_count = full_text | size -%}
+
 Stats (discounting front matter and chapter headings)
 
-- Word count: 60,118
-- Character count: 305,329
+- Total words count: {{ word_count }}
+- Unique words: {{ unique_words }}
+- Character count: {{ character_count }}
 - Line count: 477 (approximately paragraphs)
 - Illustrations: 15
 - Chapter word counts: [wordcounts.csv]({{ '/data/wordcounts.csv' | absolute_url }})
