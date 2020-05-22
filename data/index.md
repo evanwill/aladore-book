@@ -16,14 +16,9 @@ layout: page
 
 ## Metadata
 
+{% include full_text.html %}
 {% comment %} Capture list of characters to remove (punctionation) {% endcomment %} 
 {%- capture remove_list -%}~ ` ! # % ^ * ( ) + = { } [ ] | \ : ; . , < > / ? " —{%- endcapture -%}
-{% comment %} Capture full text {% endcomment %} 
-{%- assign chapters = site.html_pages | where: "layout", "chapter" -%}
-{%- capture full_text -%}
-{%- for c in chapters -%}
-{%- unless c.frontmatter -%}
-{{ c.content | strip_html | normalize_whitespace }} {% endunless %}{% endfor %}{%- endcapture -%}
 {% comment %} remove stuff {% endcomment %} 
 {%- assign remove_list = remove_list | split: " " -%}
 {%- for r in remove_list -%}
