@@ -1,6 +1,6 @@
-{% comment %} Capture full text {% endcomment %} 
+{% comment %} capture full text {% endcomment %}
 {%- assign chapters = site.html_pages | where: "layout", "chapter" -%}
-{%- capture full_text -%}
+{% capture full_text %}
 {%- for c in chapters -%}
 {%- unless c.frontmatter -%}
 {{ c.content | strip_html | normalize_whitespace }} {% endunless %}{% endfor %}{%- endcapture -%}

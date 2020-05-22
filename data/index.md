@@ -16,14 +16,8 @@ layout: page
 
 ## Metadata
 
-{% include full_text.html %}
-{% comment %} Capture list of characters to remove (punctionation) {% endcomment %} 
-{%- capture remove_list -%}~ ` ! # % ^ * ( ) + = { } [ ] | \ : ; . , < > / ? " —{%- endcapture -%}
-{% comment %} remove stuff {% endcomment %} 
-{%- assign remove_list = remove_list | split: " " -%}
-{%- for r in remove_list -%}
-{%- assign full_text = full_text | replace: r, " " -%}
-{%- endfor -%}
+{% include utilities/get_full_text.html %}
+{%- include utilities/remove_punctuation.html -%}
 {%- assign full_text = full_text | downcase | normalize_whitespace -%}
 {%- assign word_count = full_text | number_of_words -%}
 {%- assign unique_words = full_text | split: " " | uniq | size -%}
