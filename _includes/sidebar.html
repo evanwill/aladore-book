@@ -21,12 +21,13 @@
     <a class="menu-item{% if page.url == '/data/search.html' %} active{% endif %}" href="{{ '/data/search.html' | absolute_url }}">Search</a>
     <a class="menu-item{% if page.url == '/text/01toc.html' %} active{% endif %}" href="{{ '/text/01toc.html' | relative_url }}">Table of Contents</a>
     <ul class="chapters">
-    {% for p in site.pages %}{% if p.chapter %}
+    {%- assign chapters = site.html_pages | where: "layout", "chapter" -%}
+    {% for p in chapters %}
       <li class="menu-item chapter{% if page.chapter == p.chapter %} active active-chapter{% endif %}">
         <span class="">{{ p.chapter }}</span>
         <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
       </li>
-    {% endif %}{% endfor %}
+    {% endfor %}
     </ul> 
 
     <a class="menu-item" href="{{ site.github-repo }}">Source Code</a>

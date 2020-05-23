@@ -1,0 +1,7 @@
+{% comment %} Capture list of characters to remove (punctuation) {% endcomment %} 
+{%- capture remove_list -%}~ ` ! # % ^ * ( ) + = { } [ ] | \ : ; . , < > / ? " —{%- endcapture -%}
+{% comment %} remove stuff {% endcomment %} 
+{%- assign remove_list = remove_list | split: " " -%}
+{%- for r in remove_list -%}
+{%- assign full_text = full_text | replace: r, " " -%}
+{%- endfor -%}

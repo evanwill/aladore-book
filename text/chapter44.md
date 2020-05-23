@@ -12,5 +12,5 @@ Then he went spying out all things within the castle, and he found it rich and w
 
 And he said to her: Of a surety you are Aithne: but where is she which is my lady in Aladore? And the child looked upon him with clear eyes, and she answered him in a little voice and sweet: Sir Stranger, you come hither too late: for long ago she is grown up and gone away.
 
-Then fear came upon him, and he longed to be with his own again : and he woke as from a vain dream, and stood in his chamber whence he had gone forth. And before him was his lady in her own image, and her kisses were still upon his lips: and she lay looking upon him in the sunlight and her eyes were filled with love and with laughter.
+Then fear came upon him, and he longed to be with his own again: and he woke as from a vain dream, and stood in his chamber whence he had gone forth. And before him was his lady in her own image, and her kisses were still upon his lips: and she lay looking upon him in the sunlight and her eyes were filled with love and with laughter.
   

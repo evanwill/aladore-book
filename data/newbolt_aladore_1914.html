@@ -1,10 +1,29 @@
 ---
-# generate full text html edition
+# generate full text minimal html edition
 ---
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>{{ site.text-title | escape }}</title>
+    <meta name="author" content="{{ site.text-authors | join: ', ' }}" >
+    <meta name="generator" content="{{ site.github-repo }}" >
+    <!-- full text minimal html edition, generated from {{ site.title }}, {{ '/' | absolute_url }} -->
+</head>
+<body>
+
 {%- assign chapters = site.html_pages | where: "layout", "chapter" -%}
+{%- assign replace_link = '/text/' | absolute_url -%}
+
 {% for c in chapters %}
-{% unless c.frontmatter %}<h2>CHAPTER {{ c.chapter }} {{ c.title }}</h2>{% endunless %}
+{% if c.frontmatter %}{{ c.content | replace: replace_link,"#" | replace: ".html","" }}
+{% else %}
+
+<h2 id="{{ c.name | replace: '.md', '' }}">CHAPTER {{ c.chapter }} {{ c.title }}</h2>
 
 {{ c.content }} 
-
+{% endif %}
 {% endfor %}
+
+</body>
+</html>

@@ -12,12 +12,13 @@ site-date: 2018
 editors: ["Evan Will"]
 
 # book info
-# metadata about the original print book
-authors: ["Henry Newbolt"]
-illustrators: ["Alice Hylton"]
-publisher: William Blackwood and Sons
-pub-location: Edinburgh and London
-pub-date: 1914
+# metadata about the original print edition
+text-title: Aladore
+text-authors: ["Henry Newbolt"]
+text-illustrators: ["Alice Hylton"]
+text-publisher: William Blackwood and Sons
+text-pub-location: Edinburgh and London
+text-pub-date: 1914
 
 # urls
 url: https://evanwill.github.io
@@ -32,7 +33,7 @@ defaults:
       layout: chapter
 
 # ignore stuff
-exclude: [docs]
+exclude: [docs/, Rakefile, README.md, LICENSE]
 
 # output settings
 sass:

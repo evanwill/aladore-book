@@ -1,0 +1,11 @@
+---
+# find and count unique words used in the text
+---
+{%- include utilities/get_full_text.html -%}
+{%- include utilities/remove_punctuation.html -%}
+{% comment %} split text on words {% endcomment %}
+{%- assign words = full_text | downcase | normalize_whitespace | split: " " -%}
+{%- assign unique_words = words | array_count_uniq | sort -%}
+word,count
+{% for w in unique_words %}"{{ w[0] }}",{{ w[1] }}
+{% endfor %}
