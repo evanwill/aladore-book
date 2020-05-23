@@ -25,6 +25,7 @@ This text is also freely available as an [epub edition](https://archive.org/deta
 ## Technical 
 
 The site was developed from the [basic-book](https://github.com/evanwill/basic-book) template, using [Jekyll](http://jekyllrb.com/) static site generator and hosted on [GitHub Pages](https://pages.github.com/).
+This version uses Jekyll 4.0.1 and a custom plugin, and is built using GitHub Actions.
 
 The text is stored as a series of plain text files in Markdown format, one for each chapter.
 This text is used to generate both the web pages of the book and [data derivatives]({{ '/data/' | absolute_url }}) for importing into other tools for analysis.
