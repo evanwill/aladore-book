@@ -10,3 +10,5 @@ Also available as an [epub edition](https://archive.org/details/AladoreHenryNewb
 
 Aladore text is Public Domain. 
 Aladore-book Jekyll project is licensed MIT, copyright EvanWill 2019.
+
+This version uses Jekyll 4.0.1 and a custom plugin, and is built using GitHub Actions.
