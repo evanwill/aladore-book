@@ -33,7 +33,7 @@ defaults:
       layout: chapter
 
 # ignore stuff
-exclude: [docs]
+exclude: [docs/, Rakefile, README.md, LICENSE]
 
 # output settings
 sass:
