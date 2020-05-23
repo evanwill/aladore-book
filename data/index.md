@@ -12,11 +12,11 @@ layout: page
 
 *derivatives generated from the project text.*
 
-- HTML full text: [newbolt_aladore_1914.html]({{ '/data/newbolt_aladore_1914.html' | absolute_url }}) (*minimal html with full text content*)
-- Plain text: [newbolt_aladore_1914.txt]({{ '/data/newbolt_aladore_1914.txt' | absolute_url }})
-- Minimized plain text: [newbolt_aladore_1914_min.txt]({{ '/data/newbolt_aladore_1914_min.txt' | absolute_url }}) (*no front matter, no chapter names, no line breaks except between chapters*)
-- CSV: [newbolt_aladore_1914.csv]({{ '/data/newbolt_aladore_1914.csv' | absolute_url }}) (*each chapter is a row, with columns chapter_number, chapter_title, chapter_text*)
-- Mallet: [mallet.txt]({{ '/data/mallet.txt' | absolute_url }}) (*each paragraph is a "document" in the standard Mallet tab delimited format: ID tab label tab text. This file is ready for upload to [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/)*)
+- HTML full text: [newbolt_aladore_1914.html]({{ '/data/newbolt_aladore_1914.html' | absolute_url }}){:target='_blank'} (*minimal html with full text content*)
+- Plain text: [newbolt_aladore_1914.txt]({{ '/data/newbolt_aladore_1914.txt' | absolute_url }}){:target='_blank'}
+- Minimized plain text: [newbolt_aladore_1914_min.txt]({{ '/data/newbolt_aladore_1914_min.txt' | absolute_url }}){:target='_blank'} (*no front matter, no chapter names, no line breaks except between chapters*)
+- CSV: [newbolt_aladore_1914.csv]({{ '/data/newbolt_aladore_1914.csv' | absolute_url }}){:target='_blank'} (*each chapter is a row, with columns chapter_number, chapter_title, chapter_text*)
+- Mallet: [mallet.txt]({{ '/data/mallet.txt' | absolute_url }}){:target='_blank'} (*each paragraph is a "document" in the standard Mallet tab delimited format: ID tab label tab text. This file is ready for upload to [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/)*)
 
 ## Metadata
 
@@ -30,12 +30,12 @@ layout: page
 *calculated from text excluding front matter and chapter headings.*
 
 - Total words count: {{ word_count }}
-- Unique words: {{ unique_words }} - [words.csv]({{ '/data/words.csv' | absolute_url }})
+- Unique words: {{ unique_words }} (download [words.csv]({{ '/data/words.csv' | absolute_url }}){:target='_blank'})
 - Vocabulary density: {% assign w_float = word_count | times: 1.0 %}{{ unique_words | divided_by: w_float | round: 4 }}
-- Character count: {{ character_count }} - unique [characters.csv]({{ '/data/characters.csv' | absolute_url }})
+- Character count: {{ character_count }} (download unique [characters.csv]({{ '/data/characters.csv' | absolute_url }}){:target='_blank'})
 - Line count: 477 (approximately paragraphs)
 - Illustrations: {{ site.data.illustrations | size }}
-- Chapter word counts: [wordcounts.csv]({{ '/data/wordcounts.csv' | absolute_url }})
+- Chapter word counts: [wordcounts.csv]({{ '/data/wordcounts.csv' | absolute_url }}{:target='_blank'})
 
 ## Source Texts
 
