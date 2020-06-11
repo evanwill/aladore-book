@@ -7,6 +7,7 @@ layout: page
 
 - [Illustration gallery]({{ '/data/gallery.html' | absolute_url }}) (or [image list CSV]({{ '/data/image_list.csv' | absolute_url }}))
 - [Word cloud]({{ '/data/cloud.html' | absolute_url }})
+- [Word Tree](https://www.jasondavies.com/wordtree/?source=https%3A%2F%2Fevanwill.github.io%2Faladore-book%2Fdata%2Fnewbolt_aladore_1914.txt){:target='_blank'} (jasondavies)
 
 ## Text Download
 
@@ -42,8 +43,8 @@ layout: page
 - EvanWill, *Digital Aladore* project, 2014, <https://digitalaladore.wordpress.com>
     - [epub3](https://archive.org/details/AladoreHenryNewbolt3) (on Internet Archive)
     - [epub2](https://archive.org/details/AladoreHenryNewbolt) (on Internet Archive)
-- Henry Newbolt, *Aladore*, Edinburgh: William Blackwood and Sons, 1914. (digitized by Internet Archive, from University of Toronto, "scanner-katie-lawson", 2006, <https://archive.org/details/aladoren00newbuoft/page/n8>)
-- Henry Newbolt, *Aladore*, New York: E.P. Dutton & Company, 1915. (digitized by Internet Archive, from University of California, "scanner-melissa-cunningham", 2006, <https://archive.org/details/aladorehen00newbrich/page/n8>)
+- Henry Newbolt, *Aladore*, Edinburgh: William Blackwood and Sons, 1914. (digitized by Internet Archive, from University of Toronto, "scanner-katie-lawson", 2006, <https://archive.org/details/aladoren00newbuoft>)
+- Henry Newbolt, *Aladore*, New York: E.P. Dutton & Company, 1915. (digitized by Internet Archive, from University of California, "scanner-melissa-cunningham", 2006, <https://archive.org/details/aladorehen00newbrich>)
 
 ## Source Code
 
