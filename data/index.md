@@ -34,7 +34,7 @@ layout: page
 - Unique words: {{ unique_words }} (download [words.csv]({{ '/data/words.csv' | absolute_url }}){:target='_blank'})
 - Vocabulary density: {% assign w_float = word_count | times: 1.0 %}{{ unique_words | divided_by: w_float | round: 4 }}
 - Character count: {{ character_count }} (download unique [characters.csv]({{ '/data/characters.csv' | absolute_url }}){:target='_blank'})
-- Line count: 477 (approximately paragraphs)
+- Line count: 465 (approximately paragraphs)
 - Illustrations: {{ site.data.illustrations | size }}
 - Chapter word counts: [wordcounts.csv]({{ '/data/wordcounts.csv' | absolute_url }}{:target='_blank'})
 
