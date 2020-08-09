@@ -12,4 +12,4 @@ layout: page
 <li><a href="{{ '/data/search.html' | absolute_url }}">Search</a></li>
 </ul>
 
-The text and illustrations of Aladore are Public Domain. *aladore-book* is [open-source]({{ site.github-repo }}) with content by [Evan Will](https://github.com/evanwill) <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" >CC BY-SA</a> {{ site.site-date }}.
+The text and illustrations of Aladore are Public Domain. *aladore-book* is [open-source]({{ site.github-repo }}) with content by [Evan Will](https://github.com/evanwill) <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA</a> {{ site.site-date }}.

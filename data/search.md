@@ -24,7 +24,7 @@ Advanced Search Tips:
 - must contain `+foo`
 - must not contain `-foo`.
 
-Built using [Lunr.js](https://lunrjs.com/){:target='_blank'}.
+Built using [Lunr.js](https://lunrjs.com/){:target='_blank' rel='noopener'}.
 
 <script src="{{ '/assets/js/lunr.min.js' | absolute_url }}"></script>
 <script src="{{ '/assets/js/lunr-store.js' | absolute_url }}"></script>

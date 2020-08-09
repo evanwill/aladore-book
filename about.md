@@ -36,4 +36,4 @@ This allows the book to be easily shared, adapted, and modified by anyone--or us
 ## License 
 
 The text and illustrations of Aladore were originally published in 1914 in the UK and 1915 in USA, thus are in the Public Domain.
-The website project is [licensed MIT (copyright Evan Will)](https://github.com/evanwill/aladore-book/blob/master/LICENSE), and other content are <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" >CC BY-SA</a> by [Evan Will](https://github.com/evanwill), {{ site.site-date }}.
+The website project is [licensed MIT (copyright Evan Will)](https://github.com/evanwill/aladore-book/blob/master/LICENSE), and other content are <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA</a> by [Evan Will](https://github.com/evanwill), {{ site.site-date }}.
