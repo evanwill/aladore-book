@@ -1,0 +1,26 @@
+body {
+  font-family: Georgia, serif;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+h1.tocTitle {
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+  letter-spacing: 0.15em;
+  margin-top: 2em;
+  margin-bottom: 0;
+  text-align: center;
+}
+hr.tocStart {
+  border-width: 0.1em;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+li {
+  font-family: Georgia, serif;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+a {
+  color: black;
+}
