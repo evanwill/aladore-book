@@ -14,6 +14,7 @@ layout: page
 *derivatives generated from the project text.*
 
 - HTML full text: [newbolt_aladore_1914.html]({{ '/data/newbolt_aladore_1914.html' | absolute_url }}){:target='_blank' rel='noopener'} (*minimal html with full text content*)
+- Full text for print: [newbolt_aladore_1914_print.html]({{ '/data/newbolt_aladore_1914_print.html' | absolute_url }}){:target='_blank' rel='noopener'} (*HTML edition prepared for printing to PDF, using [paged.js](https://pagedjs.org/){:target='_blank' rel='noopener'}. Click print in your browser to save a high quality PDF*)
 - Plain text: [newbolt_aladore_1914.txt]({{ '/data/newbolt_aladore_1914.txt' | absolute_url }}){:target='_blank' rel='noopener'}
 - Minimized plain text: [newbolt_aladore_1914_min.txt]({{ '/data/newbolt_aladore_1914_min.txt' | absolute_url }}){:target='_blank' rel='noopener'} (*no front matter, no chapter names, no line breaks except between chapters*)
 - CSV: [newbolt_aladore_1914.csv]({{ '/data/newbolt_aladore_1914.csv' | absolute_url }}){:target='_blank' rel='noopener'} (*each chapter is a row, with columns chapter_number, chapter_title, chapter_text*)
