@@ -25,10 +25,122 @@ chapter_number,chapter_title,chapter_text
 "ii.","Contents","CONTENTS
 
 
-  {%- assign chapters = site.html_pages | where: 'layout', 'chapter' -%}
-  {% for c in chapters %}{% unless c.frontmatter %}
-  {{ c.title }}
-  {% endunless %}{% endfor %}
+  OF THE HALL OF SULNEY AND HOW SIR YWAIN LEFT IT.
+  
+  HOW SIR YWAIN SAW HIS OWN FACE THE FIRST TIME.
+  
+  HOW IT FORTUNED TO YWAIN TO FIND A STAFF IN THE PLACE OF HIS SWORD.
+  
+  HOW YWAIN CAME TO AN HERMITAGE IN A WOOD.
+  
+  OF THE HERMIT AND OF HIS DEALING WITH YWAIN.
+  
+  YET MORE OF THE HERMIT, AND OF A WORD THAT WAS IN YWAIN'S EARS.
+  
+  HOW YWAIN LOOKED INTO THE WATER OF A WELL, AND OF THAT WHICH HE SAW THEREIN.
+  
+  HOW THE HERMIT SET YWAIN ON HIS WAY AND OF TWO SECRETS THAT HE TOLD HIM.
+  
+  OF YWAIN'S JOURNEY BY NIGHT, AND HOW HE WAS BROUGHT BY A LADY TO THE PLACE OF HIS VISION, AND SO LEFT HER.
+  
+  OF THE LADY AITHNE, AND OF THE GIFTS THAT SHE HAD FROM HER BIRTH.
+  
+  HOW THE LADY AILINN DEPARTED OUT OF THIS LIFE AND OF THE COUNSEL THAT SHE GAVE TO HER DAUGHTER AITHNE.
+  
+  OF THE WARRING OF TWO COMPANIES, AND HOW YWAIN DID BATTLE FOR THE ONE OF THEM AGAINST THE OTHER.
+  
+  HOW YWAIN WAS BROUGHT INTO THE CITY OF PALADORE.
+  
+  HOW YWAIN SAT AT FEAST IN PALADORE WITH THE COMPANY OF THE TOWER AND THE COMPANY OF THE EAGLE.
+  
+  OF THE GIFTS THAT WERE GIVEN TO YWAIN AND OF A DREAM THAT HE DREAMED.
+  
+  HOW YWAIN FOUND HIS LADY AGAIN, AND HOW SHE WENT FROM HIM THE SECOND TIME.
+  
+  OF ALADORE AND OF THE SANDS CALLED THE SHEPHERDINE SANDS.
+  
+  OF PALADORE AND OF THE PRINCES THEREOF.
+  
+  HOW YWAIN SPOKE WITH THE PRINCE OF PALADORE AND HOW HE TOOK UPON HIM THREE ADVENTURES.
+  
+  OF THE ADVENTURE OF THE CHESS, AND BY WHAT MEANS YWAIN BROUGHT HIS MEN INTO OBEDIENCE.
+  
+  OF THE ADVENTURE OF THE CASTLE OF MAIDENS AND HOW YWAIN WAS COUNSELLED TO ESCAPE THEREFROM.
+  
+  OF THE ADVENTURE OF THE HOWLING BEAST.
+  
+  HOW YWAIN EMPRISED TO GO TO THE CITY OF THE SAINTS AND SO INTO THE DELECTABLE ISLE.
+  
+  HOW YWAIN SAW THE CITY OF THE SAINTS THE FIRST TIME AND HOW HE HEARD THE BELLS THEREOF.
+  
+  OF THE MANNER OF THE CITY AND HOW YWAIN FELL ADROWSING THEREIN.
+  
+  HOW YWAIN FOUND HIS LADY IN A GARDEN.
+  
+  HOW YWAIN WAS BIDDEN TO AN ABBEY AND SO TO BE ENTRAPPED BY TREASON.
+  
+  HOW THE MOON CHANGED, AND HOW YWAIN BROKE FORTH FROM THE CITY OF THE SAINTS.
+  
+  HOW YWAIN CAME INTO THE LOST LANDS OF THE SOUTH, AND OF THREE SIGNS WHEREBY THAT COUNTRY MIGHT BE KNOWN.
+  
+  HOW YWAIN HAD FELLOWSHIP WITH THE FAUNS.
+  
+  HOW YWAIN MET WITH A SHEPHERDESS AND HEARD A MUSIC, AND HOW HE HAD SIGHT OF ALADORE THE FIRST TIME.
+  
+  HOW YWAIN LIVED AS IT HAD BEEN IN THE GOLDEN AGE AND HOW HE WAS STILL UNSATISFIED.
+  
+  OF THE MADNESS OF THE FAUNS, AND HOW YWAIN FORSOOK THEM SUDDENLY, AND HIS LADY WITH HIM.
+  
+  HOW YWAIN AND AITHNE WENT FLYING BETWEEN SUN AND MOON.
+  
+  OF THE CITY OF DAEDALA, AND HOW AN OLD DAME THEREIN DESPAIRED OF IT.
+  
+  OF A PROMISE THAT WAS MADE TO YWAIN, AND HOW HE TOOK WINGS TO SEEK FOR ALADORE.
+  
+  HOW YWAIN CAME THE SECOND TIME TO THE HERMIT, AND HOW HE TOOK COUNSEL OF HIM.
+  
+  HOW YWAIN RETURNED AGAIN TO PALADORE FOR TO DWELL THERE, AND HOW HE SPOKE TO APPEASE A STRIFE THAT WAS BETWEEN THE PEOPLE.
+  
+  HOW YWAIN BEHELD A GAME OF CHILDREN AND HEARD THEIR SINGING.
+  
+  HOW YWAIN CAME TO ALADORE.
+  
+  HOW YWAIN ENTERED INTO THE RHYMER'S HERITAGE, AND HOW HE FOUND HIS LADY THEREIN.
+  
+  HOW YWAIN AND AITHNE WERE GIVEN EACH TO OTHER, AND HOW THEY WERE WEDDED BY THE FREEDOM OF ALADORE.
+  
+  HOW AITHNE SHOWED YWAIN OF THE ENCHANTMENTS OF THE RHYMER, AND OF THEM WHICH DO THEREAFTER.
+  
+  HOW YWAIN BEHELD HIS LADY SLEEPING, AND HOW HE DESIRED TO SEE THE CASTLE OF KERIOC.
+  
+  HOW YWAIN FOUND AGAIN HIM WHICH WAS FORGOTTEN IN ALADORE, AND HOW HE HEARD A RING OF BELLS AT MIDNIGHT.
+  
+  HOW YWAIN WAS COUNSELLED OF THE PRINCE OF PALADORE.
+  
+  HOW YWAIN AND AITHNE HAD SIGHT OF HUBERT, AND RETURNED TOGETHER INTO PALADORE.
+  
+  HOW YWAIN WAS AWEARIED OF PALADORE, AND HOW HE WAS MISHANDLED BY THE GREAT ONES OF THE CITY.
+  
+  HOW YWAIN WAS EXCOMMUNICATE AFTER THE CUSTOM OF PALADORE.
+  
+  HOW YWAIN AND AITHNE CAME TO ALADORE THE LAST TIME, AS IN THIS TRANSITORY LIFE.
+  
+  OF TWO CITIES THAT WERE BUILDED DIVERSELY, AND HOW YWAIN AND AITHNE HEARD A HORN BLOWN OVERSEA FOR BATTLE.
+  
+  OF A SHIP THAT WAS FULL OF LADIES AND LOVELY KNIGHTS, AND HOW YWAIN AND AITHNE DEPARTED WITH THEM OVER SEA.
+  
+  HOW YWAIN AND AITHNE CAME TO PALADORE THE LAST TIME, AND HOW THE SNOW FELL ALL NIGHT LONG.
+  
+  HOW THE HORN WAS GIVEN INTO YWAIN'S HAND, AND HOW HE SOUNDED THEREON A MORT ROYAL.
+  
+  HOW THE EAGLES FARED IN FIGHTING, AND HOW SIR RAINALD WOULD HAVE DEALT WITH YWAIN.
+  
+  HOW YWAIN BEHELD A DEAD MAN LAID ON BIER.
+  
+  OF A BATTLE BY FIRE AND HOW YWAIN AND AITHNE WERE NO MORE SEEN IN PALADORE.
+  
+  OF A TOMB THAT WAS FOUND IN PALADORE, AND OF DIVERS SAYINGS THAT WERE HEARD CONCERNING IT.
+  
 
 
 
@@ -36,10 +148,37 @@ chapter_number,chapter_title,chapter_text
 ILLUSTRATIONS
 
 
-  {% assign illustrations = site.data.illustrations %}
-  {% for i in illustrations %}
-  {{ i.title }}
-  {% endfor %}"
+  
+  
+  How Sir Ywain was led away of a Child
+  
+  It was the hour of sparrow-chirp, which comes a little before the rising of the sun
+  
+  How Ywain looked into the Water of a Well
+  
+  How the Lady Ailinn saw Two Women of the Sidhe
+  
+  He saw under the moon that lady sitting
+  
+  He came to the mirror and stood still to look into it
+  
+  And as he heard it Ywain forgot all the ills that he had suffered in all his life, and he thought on such a place as might be the land of his desire
+  
+  How Ywain found his Lady in a Garden
+  
+  One child held a squirrel between his hands
+  
+  There was yet another child fast by, which vexed the piper with a barley straw
+  
+  Upon the rocks was the young faun sitting, and playing on his pipes
+  
+  How Ywain beheld a Game of Children
+  
+  There before the doorway stood Aithne in the morning gold
+  
+  And as she sang she weaved a witch-knot upon the air with both her hands
+  
+  A Tomb that was found in Paladore"
 "iii.","Epigraph","In every land thy feet may tread
 
   Time like a veil is round thy head :
@@ -80,7 +219,10 @@ Now when the household were come into the hall they stood at a little distance f
 
 Then Sir Ywain bade his brother kneel down, and there he made him knight, taking his sword from him and laying it on his shoulder, and afterwards belting it again round his body. And he took the keys from his own girdle and the gold spurs from his own feet, and said aloud: I call you all to witness that as I have done off my knighthood and the Honour of Sulney, and given them to this my brother Sir Turquin, so also by these tokens do I deliver unto him the quiet possession of my house and goods and the seisin of all my lands, to hold unto him and his heirs for ever, by the service due and accustomed for the same. And henceforth I go free.
 
-{% include illustration.html file='aladore_01.jpg' alt='Illustration: How Sir Ywain was led away of a Child' id='illustration01' %}
+
+    
+    
+
 
 Then his brother, who was both glad and sorry, and moreover was still in doubt how this might end, stood holding the keys and the spurs, and looking at him without a word. And he looked also at the child, and he saw that for all the difference in their years, the eyes of Sir Ywain had become like the boy's eyes: and as he looked his heart became heavy, and for a moment he envied his brother and feared for himself. But in his fear he moved his hands, and the keys clanked and the spurs clinked together, and his heart leaped up again for joy of his possessions.
 
@@ -128,7 +270,10 @@ Then he spoke scornfully of her and her eggs, and he asked her for what reason o
 
 And she answered quickly that though a thing were clean past a man's understanding, yet it might well happen so for all that: and further, she would have him to know that in her house were no vile beds, but such as were fit for any man to sleep in, and she cared not who he might be.
 
-{% include illustration.html file='aladore_02.jpg' alt='Illustration: It was the hour of sparrow-chirp, which comes a little before the rising of the sun' id='illustration02' %}
+
+    
+    
+
 
 And at that he growled a little, like a dog that is made to cease barking. Then he spoke to her again, in the manner of one who deals with a child, making a show of gentleness and mastery together. See now, he said, and I will give you three reasons why you have the wrong and I have the right of it. First then, this one that has had supper and sleeping-room of us is a young man, and quick to rise and to sit down, but my lord of Sulney is past his youth and waxing heavy. Secondly, this one came to us walking upon his own shanks, and that no lord would do that had the horses of Sulney, for I have seen them time and again, and in these parts there are none better. And beside these two reasons, there is a third that you might well have seen with your own eyes, for this man's cloak is the cloak of a pilgrim and not of a lord, and his hat and staff are such as none use but wayfarers. And if you will not believe me now, you may ask him for the truth of it yourself.
 
@@ -188,7 +333,10 @@ And as Ywain heard those words he believed them, and he thought on still water, 
 And the hermit answered: It is near at hand: but the looking is longer than the way thither."
 "VII.","HOW YWAIN LOOKED INTO THE WATER OF A WELL, AND OF THAT WHICH HE SAW THEREIN.","THEN they rose up and went out, and the hermit showed Ywain a little path that went along under the cliff and so into the wood beyond: and thereby, he said, was the way to a dead thorn-tree that stood in a space alone, and under the thorn-tree was a wellspring, and from the well-spring came a runnel of bright water whereby it might surely be found. Then he put a wheaten cake into Ywain's hand and said to him: Farewell now for to-day, and at suppertime come again with your visions, and we will talk of them together. But when you stand by the well-spring and look therein, then, said he, be not weary of your looking, but return always and be always in hope until the sun go down. For the visions are not quickly to be seen, as the common sort suppose that they see all things which are before their faces: whereas they see, as it were, but the shadows upon the ground and not the life of those who cast them. But that which you seek to see is the dealing of spirits, and men come not thereto suddenly, but by long time and loneliness.
 
-{% include illustration.html file='aladore_03.jpg' alt='Illustration: How Ywain looked into the Water of a Well' id='illustration03' %}
+
+    
+    
+
 
 Then he returned from him, and Ywain took the path and went into the wood, and in no long space he saw a great thorn-tree before him, and it was all dead and without leaf or berry, and other trees there were none very near it, but only the cliff that bore hard upon it on the one side, whereby it leaned a little outwards. And beneath the spread of it Ywain saw a well-head made of stone from the cliff, and it was of the height of a man's thigh. Also there was a step or margin of stone under it, and the step and the well-head were both shapen with six sides, every side equal to every other, after the manner of the waxen chambers of bees. And when Ywain came nearer he saw that the spring rose in the well-head within four fingers of the brim, but it could not rise above the brim by reason of a little sluice below, that was made in the stone above the step, and a runnel came therefrom of bright water and went into the wood darkling.
 
@@ -233,7 +381,10 @@ Then despair came upon Ywain, as upon a wild thing that is trapped, and he strug
 
 First then, she was of a high lineage and descended out of faery: for her father was Sir Ogier, Lord of Kerioc, that lies over beside Broceliande, and her mother was called the Lady Ailinn of Ireland, and she came of the kindred of Fedelm of the Sidhe, that was called Fedelm of the Nine Shapes, by reason that she could take on her nine shapes, and each more beautiful than other. Therefore the Lady Ailinn would have called her daughter Fedelma, but Sir Ogier named her with the name of Aithne, and she was called thereby all her life-days, as for her earthly name: but of her elfin nature she had other names, as was but reason, and in especial one name she had that none ever knew but Ywain only. So of that name I shall make no more matter.
 
-{% include illustration.html file='aladore_04.jpg' alt='Illustration: How the Lady Ailinn saw Two Women of the Sidhe' id='illustration04' %}
+
+    
+    
+
 
 Now when the Lady Ailinn had been some while wedded, and was looking for her child to be born presently, upon a night she lay abed in the castle of Kerioc: and midnight was two hours past and there was none waking but that lady alone. And in her chamber was a fire of wood burning, for the year was still cold and hard: and the fire was bright and cast upon the wall of the chamber both light and shadow. And Ailinn lay so upon her bed that she saw not the window, but the wall only, and she perceived that the shadow upon it was the shadow of her nurse, that was fallen asleep beside the hearthstone.
 
@@ -290,7 +441,10 @@ Now in his dream it seemed to him that he awoke out of sleep and saw that the su
 
 Then they two went through the streets together and came quickly to the gate of the city, that was the same by which Ywain had come in: and the gate was shut and locked, and the porter gone within the gatehouse. But the boy laid his hand against the wicket and opened it lightly, and he drew Ywain after him, and they went out towards the place of the fighting. And the boy stayed not there, but went forward to the edge of the steep bank and looked towards the wood: and Ywain also looked with him, and he saw the river and the stepping-stones and the meadow-ground beyond them. And by the woodside was a poplar tree new fallen, and thereon he saw under the moon that lady sitting, and suddenly in his dream he repented him that he had so left her, and he well knew wherefore the boy had wept. And they two ran down to her together and Ywain cast himself before her: and he laid his hands between her hands and sware by his faith to serve her truly. And in his dream she looked kindly upon him, and he saw her eyes, and they were grey like the dawn, and filled with coming brightness. So he turned him about to bring in the boy, that he also might be comforted: but the place was all clear moonlight, and boy there was none, neither to right nor to left.
 
-{% include illustration.html file='aladore_05.jpg' alt='Illustration: He saw under the moon that lady sitting' id='illustration05' %}
+
+    
+    
+
 
 Then the lady rose up and went towards the city of Paladore: and Ywain went with her, and she brought him to the gate and it was shut. But with her hand she touched the wicket and so opened it, and they entered in thereat. And in short space they came to Ywain's house and passed it by, and when they had gone some deal farther they came before a house that Ywain knew not, where was a great shield of arms beside the doorway. And there the lady stayed, and she looked at Ywain, and he at her, and when he thought that she would have said somewhat she turned her away: and she went from him into the house without word spoken. Then Ywain also went his way: and as he went in his dream the moon set, and the sun rose on Paladore."
 "XVI.","HOW YWAIN FOUND HIS LADY AGAIN, AND HOW SHE WENT FROM HIM THE SECOND TIME.","LONG time was Ywain musing on that which had befallen him by night, and it seemed to him that he had been made to live as it were in two lives, seeing that out of one sleep he had twice awaked. And of the truth of this he had no certainty, but of his service that he had sworn to his lady, of that he had certainty, for whether in his dream or out of his dream his heart assented thereto. Moreover, he desired greatly to come again to that house where he had seen her go from him: and if such a house there were in Paladore, he doubted not to find it, for he saw yet before his eyes the shield of arms that was there beside the door, and it was party of sable and silver, with a ship sailing therein counter-coloured.
@@ -307,7 +461,10 @@ Then he saw in the glass how she raised her head, and looked: and in that same i
 
 Then he was ashamed, for he had no skill with the lute, and he prayed her forgiveness humbly. Then she said it was no matter, but that he should take the book and read to her. And he took the book, and opened it: but every word that was in it was written in an unknown tongue, so that he was ashamed for this time also. Then again she said it was no matter, but for a little while she was silent: and afterward she bade him look from the window and tell her of that which he saw. So he came to the window, that was an oriel and high above ground: and before it and beneath lay the ridge tiles of the city, and beyond them was a wall with battlements, and above the battlements was a long line and dim, where the sky met with the sea.
 
-{% include illustration.html file='aladore_06.jpg' alt='Illustration: He came to the mirror and stood still to look into it' id='illustration06' %}
+
+    
+    
+
 
 Then he said to his lady, I see some part of the city hereunder, and what shall I say of it to do you pleasure? But she answered him that he should look not upon the city, but beyond it. Then he said to her, I see above the battlements a dimness of blue, and in it is a line where the sky meets with the sea: and what more shall I say of it to do you pleasure? And she answered him not, but left her broidering and so came and stood beside him at the window, and they two looked upon the sea together. And at the last she said to him, Look well now and tell me all: for I see that of which you have not told me. And he looked again, shading his eyes with his hand and peering carefully: but nothing could he see, save one dimness upon another.
 
@@ -411,7 +568,10 @@ For in his misery there came to him a sound of clear music, as a lantern comes t
 
 Then with the fall of that tree the noise of howling ceased, and Ywain looked and saw that he had been long in his madness, for it was now the last hour of the day. And the music that he heard ceased not, but the voice changed within it: for it sang no more of old things but of new. And as he heard it Ywain forgot all the ills that he had suffered in all his life, and he thought on such a place as might be the land of his desire: and it seemed to him that he was not far therefrom. Then his thought went from him and he slept.
 
-{% include illustration.html file='aladore_07.jpg' alt='Illustration: And as he heard it Ywain forgot all the ills that he had suffered in all his life, and he thought on such a place as might be the land of his desire' id='illustration07' %}
+
+    
+    
+
 
 And when he awoke it was grey dawn: and he rose up and began to go from that place. And as he went there met him a herd-girl with a herd of black swine, and in her hand was a little pipe of wood, and when Ywain saw the pipe he remembered how he had been holpen overnight. Then he thought to ask of the herd-girl what might be the music which had come to him. And she held up her pipe before him and said: Sir, there is here no music but of this only: for here are none but deaf men, and I that pipe to the deaf. But whither you go there is music enough: for you will go, as I think, by the high-road. And therewith she left him and went further. But as she went she looked again at him, and she smiled as with remembrance: and in her smiling he saw his lady the third time. Yet he saw her not to his profit, but as a man may see an image in a glass, which is certainly of the world visible, but in nowise of the life thereof. So he looked only and let her go from him."
 "XXIII.","HOW YWAIN EMPRISED TO GO TO THE CITY OF THE SAINTS AND SO INTO THE DELECTABLE ISLE.","So within a while he came to the gate, and found it wide open. And when he had passed out he looked towards Paladore, for they which brought him thence had spoken of a day and a night, and they said how they would return again thereafter, if perchance they might find him still in life and understanding. And as he looked he saw far off a company that moved upon the road hitherward: but he perceived that they came not ahorse but afoot, and they were not two but many. Also they were banded in good order as they came, and kept measure, foot by foot, and they sang all together: and that which they sang was a godly hymn, but it was some deal fierce in the singing.
@@ -451,7 +611,10 @@ So on a day he walked alone in a garden of the city, and heard a sweet sad peal 
 
 Then the lady looked down upon the flowers that she had gathered, and Ywain saw her face athwart, over her shoulder; and though her eyes were hid from him yet he saw well that she was his own lady. For he knew her by the turning of her neck, and by her hair, and by her ear that was like the hollow of a shell: and beside all these he knew her by a reason that was no reason but certainty. And he spoke to her by her name: and she turned her about and looked at him. And he said no more, for he was astonished dumbly, like a man awakened out of sleep.
 
-{% include illustration.html file='aladore_08.jpg' alt='Illustration: How Ywain found his Lady in a Garden' id='illustration08' %}
+
+    
+    
+
 
 And she said to him: Tell me somewhat of your amazement: for what came you hither seeking, if it were not that which you have found? Then he stood before her stockishly, like a thing of wood: but in his heart he went out of himself and kneeled upon his knees before her. And he said: Forgive me, for I thought to find you, but not here. And as he spoke there came into his mind the remembrance of the Queen of Chess, and of that old dame among the Maidens, and of the herd-girl in the wood of Howling: and when he saw his lady here also and in her proper shape he was bewildered suddenly. And he looked at her as at one that was past his understanding, and he cried out as in fear: What are you verily?
 
@@ -508,11 +671,17 @@ Then he lifted his eyes and looked again: and he saw them and saw them not. For 
 
 Then he began to leave the high hills, and he came into a little downland with downs that tumbled divers ways. And it was a bare land, but warm and rich: and in the valleys were cots with corn about them, and rivers going softly in deep meadows. And as he went he saw before him a beechen grove with seven trees therein: and the grove was lonely and clear of boskage, and it seemed to Ywain that he had sight of children playing between the trees. So he came nearer, going slow and craftily: and he stood behind the endmost tree and looked through the grove, for it was but little. And that which he saw was passing strange to him: for the children were there before him, and the like of them he saw never in all his days. Naked they were and manlike to the middle,—in their flesh fat and in their countenance all merry babes: but below they were of another fashion, for their hams were wool-begrown and they were goatkneed and goat-footed. Also their hair upon their heads was woolly and their ears were pointed and a-prick like little horns. And it was plain to see that they were kin to the beasts and of them well understanded: for one child held a squirrel between his hands, and the squirrel feared not, but kept his tail a-high; and one sat piping to a company of small fowls, which also sat and piped to him. But there was yet another child fast by, which vexed the piper with a barley straw: and he ceased not for his brother's frowning, but tickled him evilly amidst his ear.
 
-{% include illustration.html file='aladore_09.jpg' alt='Illustration: One child held a squirrel between his hands' id='illustration09' %}
+
+    
+    
+
 
 Then when Ywain saw those babes and their playing his thoughts left him and forgetfulness and joy came upon him very suddenly, and his heart was delivered of a great laughter. And that laughter went rolling forth from him as smoke goes rolling from a fire of green wood, and like smoke it was renewed continually, bursting thickly forth without end. And the children heard it and ceased from their playing: yet it brought no fear upon them, neither upon the beasts that were their fellows. For the squirrel chattered and the small fowls piped more loudly, and the children also wantoned in laughter, and rolled upon the ground together: and when they came upon their feet again they spied Ywain and cried out joyously upon him, and they ran against him with their heads and blethered after the manner of kids. And when Ywain felt the butting of their heads and the busyness of their hands about him then there came before his eyes a haze of brightness, so that he saw the world as it were golden and gleaming, and it seemed to him that he had returned into the morning of his youth.
 
-{% include illustration.html file='aladore_10.jpg' alt='Illustration: There was yet another child fast by, which vexed the piper with a barley straw' id='illustration10' %}
+
+    
+    
+
 
 Then with his much laughter his strength went from him, and for content he sighed and so laid him down upon the ground: and the children sat them beside him and tumbled one with another. And as they sported and tumbled together it bechanced that one of them struck Ywain with his foot: and Ywain started a little, for the kick was notable. And he perceived right well the reason: for he saw again the child's foot, how it was small and hard like the hoof of a goat. And instantly his thought quickened that before had been sleeping: and he knew the land whereto he had come. For this was the third sign, and sign past doubting: howbeit the first two were also signs and plain enough. But what he perceived not by Oreads and by Dryads, that he learned easily by Fauns: for of those he had but vision of the eyes, but with these there came also kicking of the flesh."
 "XXX.","HOW YWAIN HAD FELLOWSHIP WITH THE FAUNS.","So Ywain lay there upon the earth, and his laughter ebbed from him: and he set him to gather his wits together as a huntsman gathers his hounds that have been chasing over wide. And in part he gathered them but not all: for it seemed that some part of him was beyond calling and would not return. But of that he left thinking, and was content: and his heart was emptied of all thoughts save three only. For he had great desire of eating and of fellowship and of dancing: and the sun filled him with strength and the air quivered before his eyes, and he leaped up upon his feet.
@@ -538,7 +707,10 @@ Then she rose and led him again downward: and the sheep went down before them to
 
 And Ywain came near, for the music drew him strongly: and he stood and looked upon the pool, and he saw the sky therein. And he saw it not as sky but as a great region of the sea: for the clouds upon it were like lands of earth, and they lay there after the fashion of bays and heads and islands. And there was a coast that lay fast by him, as it were beneath his very feet: and it ran to the right of him and to the left, and beyond it was the void space of the sea. And as he looked upon the coast he knew it well: for he stood by seeming upon the High Steep of Paladore, and looked out over the Shepherdine Sands.
 
-{% include illustration.html file='aladore_11.jpg' alt='Illustration: Upon the rocks was the young faun sitting, and playing on his pipes' id='illustration11' %}
+
+    
+    
+
 
 Then with the beauty of the place he fell to longing, and because of the music that he heard his heart was restless: and he desired greatly to be seeking for the land wherefrom that music came. And in a moment it was there before him, beyond the void space of the sea. And the form of it was as the form of Paladore, with the city and the steep all fashioned out of cloud: but it lay lonely and far out, like an island of the West. And a light was upon it more delectable than all the lights of sunset, so that it seemed to burn also in the eyes of him that saw it: and the light and the music increased together, and together they faded and ceased. And when they ceased Ywain turned him aside to weep, for he perceived that he was homeless.
 
@@ -638,7 +810,10 @@ So they were stilled and put in peace together, as for this time, and they left 
 
 So he stayed not there, but went forth again he knew not whither: for his wits wandered otherwhere, but his feet lightly found out the ways of his desire. And the time was the time of sunset, and there went a great thunder over the city, and a sudden rain; and when the rain ceased there was a light in the air and a marvellous clearness. And it seemed to Ywain as though that clearness was in his eyes also, and in his mind and in his heart: and he went wandering in joy. So he came to a gate of the city and marked it not, but passed through it: and beyond the gate he saw suddenly the High Steep before him, grey and green, and upon it was a company of children singing and making merry, for they had run forth after the ceasing of the rain. And there beyond them was the sea, shining like grey steel, and the trees were dark against it; and the sky was heavy above with bands of purple, but between the bands the colour of it was pale and cool, and like to the colour of green apples.
 
-{% include illustration.html file='aladore_12.jpg' alt='Illustration: How Ywain beheld a Game of Children' id='illustration12' %}
+
+    
+    
+
 
 Then Ywain stood still to look upon the sea and the sky, and the children came round about him and looked also. And as they stood looking there passed a cloud over the Shepherdine Sands, and the cloud was drawn down upon the white water, and it was the last cloud of the storm going west before the wind. And the passing away of it was like the drawing of a curtain, for immediately there was light instead of darkness upon the Shepherdine Sands and upon all the region that was beyond. And in the light there was a land, as it were far off but exceeding clear: and upon the land was a steep and a city, and by seeming it was no strange city, for it was built and bulwarked after the very fashion of Paladore. Notwithstanding it was strange enough: for it was small and bright as a city that is painted in a book, and the light wherewith it shone was a light of dawn and not of sunset.
 
@@ -714,7 +889,10 @@ And when he had gone but a score of paces into the city, he came to the court th
 
 So Ywain entered into the Rhymer's Hall, and within door he found the porter, and the man sat there reading upon a book. And Ywain asked him: What read you? and immediately the porter vanished without answer given, and there was nought seen of him but his chair, and upon the chair was the book whereon he had been reading. Then Ywain came near and took up the book and looked within it: and it was a wide book, painted delicately with great letters and with pictures. And the picture that was Open before him was the picture of two lovers by a garden door; and the lady stood beside the door and leaned upon it with her hand to open it, but the lover came to her in habit of a pilgrim, and his hat was broad above his face, and shadowed it. And Ywain's heart quickened as he looked: for the lady was his own lady, and she stood there as living as the leaves in spring.
 
-{% include illustration.html file='aladore_13.jpg' alt='Illustration: There before the doorway stood Aithne in the morning gold' id='illustration13' %}
+
+    
+    
+
 
 Then he laid the book upon the chair and left it lying, and he went through the Rhymer's Hall from end to end, and through all the courts of it and out beyond. And he came by a pleached alley to a close, and looked across the close: and upon the far side of it was a wall of stone, and in the wall was a carven doorway, and a door of wood. And there before the doorway stood Aithne in the morning gold, and she laid her hand against the door and looked a little downward, as one that is waiting and musing. And when Ywain came to her she spoke no word, but she turned away and led him through the doorway, and the door fell back and closed behind them: and it closed full slowly, but at the last there was a small noise of clanking and the bar went home into the notch.
 
@@ -860,7 +1038,10 @@ Then Ywain said to Aithne: This is my city, O my playfellow, and I marvel that y
 
 And Ywain and Aithne stood still and looked upon the tide: and it came running and lapping more fiercely, and the froth of it began to foam upon the edges of the mounds. And the water gnawed upon the sand of the one city, and that was Ywain's: and the walls and towers of it began to crumble and to crack, and at the last they were perished wholly as by ruin of time, and the tide flowed over them and they were gone. But with Aithne's city it was not so, for the sea bit not upon it nor overflowed it, but it stood above the water until the turning of the tide. And Ywain came near to touch it, but he could not, for it was but mist between his fingers. And he left it alone and stood and looked upon it again: and it endured as rock, notwithstanding it was builded of a song.
 
-{% include illustration.html file='aladore_14.jpg' alt='Illustration: And as she sang she weaved a witch-knot upon the air with both her hands' id='illustration14' %}
+
+    
+    
+
 
 Then he said to Aithne: The game is nought, for you have played it by no fair hazard but by enchantment. And she answered him: Not so, for by this same enchantment is Aladore upbuilded and sustained, and that is the truth of it. And she looked into his eyes and her spirit entered into him, and they twain were one spirit. And the dusk began to fall about them and peace therewith, for they were in their own place beyond time and tide. But in that moment came change upon Ywain, for a sound was in his ears: and the sound was the sound of a horn blown over sea, and in the hearing of it all the blood of his body leapt furiously up to battle."
 "LII.","OF A SHIP THAT WAS FULL OF LADIES AND LOVELY KNIGHTS, AND HOW YWAIN AND AITHNE DEPARTED WITH THEM OVER SEA.","THEN Ywain looked upon Aithne, and in one moment he remembered all her love and her kindness, and pain was mingled with his joy. And his heart was filled with a tumult past bearing, and he groaned aloud and cried: Ah! my beloved, what is this that has come upon us? For here is the land of our desire and the land of all loveliness and all delectable enchantments, and herein we might have had life enduring. But now I see well that there is no such fortune: for the horn has sounded, and the sound of it has power upon body and blood. And peace is gone from me suddenly, and I can by no means keep me from the fight: for the cause is a right cause and one that must be ransomed, yea, though all else be given and lost for it.
@@ -948,9 +1129,7 @@ Then Aithne came near to him and stood before him, and she laid her hands upon h
 
 So they two stood hand in hand and looked upon the light: and in the same instant there came a noise of shouting from before the Hall, and they ran hastily and came forth upon the steps. And there beneath them was the whole place filled with torches and with spears, and they heard their enemies shouting fiercely against them. And they heard also the sound of bowstrings, and the arrows came thick about them: and upon every arrow was a pennon of quick flame, and they came through the night like fiery serpents flying. And some of the arrows entered into the Great Hall and lit upon the beams and upon the carven wood: and the flame licked upon the wood, and there was no force to stay it. And Ywain saw well that the end was come, for there was no rescue, and the fire began to roar among the timbers of the roof: and in his heart was no more care, but he rejoiced with a new joy, such as he had not known in all his days. And he came forth before his people, and in his right hand he took his sword, and in his left hand he took the hand of his beloved. And he looked down upon the faces of his enemies and he laughed aloud and cried to them: Come near and take what is left of the night, for to-morrow is ours and all that is to come.
 
-Then the arrows flew more thickly, and the torches came onward with the spears, and the place was filled with flame and death. And Ywain and Aithne went swiftly down, and all their people with them: and the battle swayed about them heavily, and they were no more seen.
-
-{% include illustration.html file='aladore_15.jpg' alt='Illustration: A Tomb that was found in Paladore' id='illustration15' %}"
+Then the arrows flew more thickly, and the torches came onward with the spears, and the place was filled with flame and death. And Ywain and Aithne went swiftly down, and all their people with them: and the battle swayed about them heavily, and they were no more seen."
 "LVIII.","OF A TOMB THAT WAS FOUND IN PALADORE, AND OF DIVERS SAYINGS THAT WERE HEARD CONCERNING IT.","IN the same hour came a noise of shouting from the West, and Hubert and his broke in upon the battle. And they struck upon the spearmen as the wood-knife strikes upon the ashlings, so that there was neither resistance nor recovery, but all laid to length upon the ground. And when they had made an end of their enemies, then they sought busily to find their fellows, if there might be any with the life yet in them. And they found of them one here and another there, for they were buried beneath the slain: but Ywain and Aithne they found not, neither sign of them, neither report.
 
 And when it was morning light then they made search again: and they came into the chapel wherein Aithne had been in sanctuary. And there also they sought, and when they came before the altar and saw the tomb that was thereby, then they found that which they sought not. For upon the tomb were two lying in semblance of a man and a woman: but they were fashioned of black bronze after the manner of the tombs of kings. And the faces of them were the faces of Ywain and Aithne, and they lay there as they had been sleeping.

@@ -5,9 +5,48 @@
     <title>Aladore</title>
     <meta name="author" content="Henry Newbolt" >
     <meta name="generator" content="https://github.com/evanwill/aladore-book" >
-    <!-- full text minimal html edition, generated from Aladore, https://evanwill.github.io/aladore-book/ -->
+    <!-- full text html edition, generated from Aladore, https://evanwill.github.io/aladore-book/ -->
+    <link rel="stylesheet" href="/aladore-book/assets/css/main.css">
+    <link rel="stylesheet" href="/aladore-book/assets/pagedjs/preview.css">
+    <style>
+        /* page basics */
+        @page {
+            size: letter;
+            margin: 1.5in 1.5in;
+        }
+        /* chapter page set up */
+        @page chapter {
+            @bottom-center {
+                content: counter(page);
+            }
+            @top-center {
+                content: "Aladore";
+            }
+        }
+        /* set page numbers at first chapter */
+        #chapter01 { counter-reset: page 1; }
+        /* set up page breaks */
+        .frontmatter-pages {
+            break-before: right;
+        }
+        .chapter-pages {
+            page: chapter;
+            break-before: page;
+            margin-top: 8em; 
+        }
+        /* keep figures on page alone */
+        figure {
+            max-width: 100%;
+            max-height: 100%;
+            break-before: page;
+            break-after: page;
+        }
+
+    </style>
 </head>
 <body>
+
+<div class="frontmatter-pages">
 <div class="titleSection">
   <h1 ><span class="bigTitle">A</span>LADORE</h1>
 </div>
@@ -34,8 +73,11 @@
   <p class="publisher">1914</p>
 </div>
 
+</div>
 
 
+
+<div class="frontmatter-pages">
 <hr>
 
 <h1 class="toc-title">CONTENTS</h1>
@@ -198,8 +240,11 @@
   
 </ol>
 
+</div>
 
 
+
+<div class="frontmatter-pages">
 <hr> 
 
 <div class="stanza">
@@ -228,11 +273,13 @@
 
 <p class="epigraphAuthor">—Dream-market.</p>
 
+</div>
 
 
 
+<div class="chapter-pages">
 
-<h2 id="chapter01">CHAPTER I. OF THE HALL OF SULNEY AND HOW SIR YWAIN LEFT IT.</h2>
+<h2 class="chapter" id="chapter01">CHAPTER I. OF THE HALL OF SULNEY AND HOW SIR YWAIN LEFT IT.</h2>
 
 <p>SIR YWAIN sat in the Hall of Sulney and did justice upon wrong-doers. And one man had gathered sticks where he ought not, and this was for the twentieth time; and another had snared a rabbit of his lord’s, and this was for the fortieth time; and another had beaten his wife, and she him, and this was for the hundredth time: so that Sir Ywain was weary of the sight of them. Moreover, his steward stood beside him, and put him in remembrance of all the misery that had else been forgotten.</p>
 
@@ -264,10 +311,13 @@
 <p>Then Sir Turquin came hastily after them, and he laid his hand upon his brother’s arm and bent his head a little, and spoke to him so that none else should hear, and he said: What is this that you are doing; for no man leaves all that he has, and departs suddenly, taking nothing with him. But those two went from him without answering, and they passed, as it seemed, very swiftly along the road under the woodside, and were hidden from him. And again, as he stood still watching, he saw them going swiftly above the wood where there was no path, but only the bare wold before them.</p>
  
 
+</div>
 
 
 
-<h2 id="chapter02">CHAPTER II. HOW SIR YWAIN SAW HIS OWN FACE THE FIRST TIME.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter02">CHAPTER II. HOW SIR YWAIN SAW HIS OWN FACE THE FIRST TIME.</h2>
 
 <p>Now the truth is that when Ywain turned his back on his old life and the snug lordship that was his, he had no thought of what was to be the way of his wandering, nor did he so much as know by which of the world’s four roads he would begin his journey. But he climbed upon the open wold as if all his pleasure was to climb and to strike his feet firmly and to breathe deep: and the boy went by his side in like manner, and they spoke no word.</p>
 
@@ -296,10 +346,13 @@
 <p>And he heard again the answer as one that hears a voice through the mist: but the words were in an unknown tongue. And he peered down, and stooped, and where the boy had been there was but the long grass and the thistles: and when he rose up again he saw the hillside clear before him, and the sun was low and the edges of the bents were glistening, and nothing moved among them but the wind of sunset.</p>
  
 
+</div>
 
 
 
-<h2 id="chapter03">CHAPTER III. HOW IT FORTUNED TO YWAIN TO FIND A STAFF IN THE PLACE OF HIS SWORD.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter03">CHAPTER III. HOW IT FORTUNED TO YWAIN TO FIND A STAFF IN THE PLACE OF HIS SWORD.</h2>
 
 <p>THEN Ywain turned his face towards the village, and went down the hill: and he went with a good heart, for though the boy had left him, yet he hoped not to be long without him, and even now when he looked straight forward it seemed that he had the joy of his company and his laughter. But when he turned and looked beside him, there was but his own shadow; black it lay and long, and about the edges of it a brightness was shining. Then he remembered that the sun was low and night rising among the hollows, and he bethought him of his supper and sleep.</p>
 
@@ -334,10 +387,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter04">CHAPTER IV. HOW YWAIN CAME TO AN HERMITAGE IN A WOOD.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter04">CHAPTER IV. HOW YWAIN CAME TO AN HERMITAGE IN A WOOD.</h2>
 
 <p>So Ywain marched alone in the high wood, and for a time he saw no more the sun, nor the light of the sun, for the wood was of pines and they were marvellous thick above his head. But the stems were far enough apart and the track went this way and that among them, and whiles it turned aside and whiles it forked, and whiles it was no track at all. But Ywain went always right forward and would not stay, nor leave following his own thought. And as he went it came again into his mind that he was a new man, for though he was still amazed with questions yet he carried neither forethought nor repentance, and he marched to a song that was in his ears. And in his marching there came to him the remembrance of the child that had led him forth, and though he knew surely that he was now alone, yet, by the imagination of his heart, he could well see the child dancing before him upon the path of the forest.</p>
 
@@ -357,10 +413,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter05">CHAPTER V. OF THE HERMIT AND OF HIS DEALING WITH YWAIN.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter05">CHAPTER V. OF THE HERMIT AND OF HIS DEALING WITH YWAIN.</h2>
 
 <p>So within a while he got upon his feet and came to the door in the rock and called to the hermit; and the hermit came from within and stood shading his eyes with his hand, and asked him the reason of his calling. And Ywain answered him courteously, making as though to take his hat from off his head in sign of reverence: and the hermit lifted his eyes in the same moment and saw that the hat was the hat of a pilgrim, and yet of no accustomed pilgrim, for there were upon it neither shells nor images. Also he saw that Ywain’s cloak was not threadworn nor his shoes broken. And his face he could not well see for the brightness of the sunlight, but by his voice he might perceive him to be young and gentle, and none of the wandering rogues of whom all hermits dwell in dread. Then he brought him into his cave, that was as like a house as a cave may be, and he made him sit by a table, and gave him to eat and to drink. And when Ywain had well eaten and drunk the hermit asked him concerning the way by which he had come, and the way by which he would go forth again: but he would not ask of his name, nor in what house he was born, nor even of his pilgrimage, for he also was courteous, and his mind was to pleasure his guest and not himself only. Nevertheless he was not willing to lose the companionship that had fallen to him until he should have heard somewhat of the dealing of men, for it was long since he had had knowledge thereof by one of like breeding with himself. So he spoke to Ywain of to-morrow, and of certain things that he would show him, and Ywain heard him gladly enough, for his feet were now heavy with weariness and good eating. And the hermit knew this by the sound of his speech, and he laid him upon his own bed and bade him take his ease.</p>
 
@@ -384,10 +443,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter06">CHAPTER VI. YET MORE OF THE HERMIT, AND OF A WORD THAT WAS IN YWAIN'S EARS.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter06">CHAPTER VI. YET MORE OF THE HERMIT, AND OF A WORD THAT WAS IN YWAIN'S EARS.</h2>
 
 <p>IN the morning when they had arisen they went out of the house and came to the stream, for the hermit said that they should bathe in it, and he showed Ywain a pool that was deep enough. Then they did off their clothes hastily and threw themselves into the water after the manner of otters, and at a stroke they came to the top of the pool. And there was a little waterfall there, and the stream of it carried them down, and they touched the stones and crept out upon them. Then they took the water again more strongly and came right to the waterfall and stood beneath it, and it splashed upon their heads and divided the hair like a cold knife. And at that they laughed together and so threw themselves back and were carried down again, and they came quickly to their clothes, blowing with their breath and shivering. But when they had run to the house they were warm and fresh.</p>
 
@@ -403,10 +465,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter07">CHAPTER VII. HOW YWAIN LOOKED INTO THE WATER OF A WELL, AND OF THAT WHICH HE SAW THEREIN.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter07">CHAPTER VII. HOW YWAIN LOOKED INTO THE WATER OF A WELL, AND OF THAT WHICH HE SAW THEREIN.</h2>
 
 <p>THEN they rose up and went out, and the hermit showed Ywain a little path that went along under the cliff and so into the wood beyond: and thereby, he said, was the way to a dead thorn-tree that stood in a space alone, and under the thorn-tree was a wellspring, and from the well-spring came a runnel of bright water whereby it might surely be found. Then he put a wheaten cake into Ywain’s hand and said to him: Farewell now for to-day, and at suppertime come again with your visions, and we will talk of them together. But when you stand by the well-spring and look therein, then, said he, be not weary of your looking, but return always and be always in hope until the sun go down. For the visions are not quickly to be seen, as the common sort suppose that they see all things which are before their faces: whereas they see, as it were, but the shadows upon the ground and not the life of those who cast them. But that which you seek to see is the dealing of spirits, and men come not thereto suddenly, but by long time and loneliness.</p>
 
@@ -425,10 +490,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter08">CHAPTER VIII. HOW THE HERMIT SET YWAIN ON HIS WAY AND OF TWO SECRETS THAT HE TOLD HIM.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter08">CHAPTER VIII. HOW THE HERMIT SET YWAIN ON HIS WAY AND OF TWO SECRETS THAT HE TOLD HIM.</h2>
 
 <p>Now it was the hour when the hermit would be going to supper, and thereupon came Ywain to the house. And while they sat eating and drinking Ywain told the hermit of that which he had seen: but he spoke warily, for he told him nothing of the boy.</p>
 
@@ -448,10 +516,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter09">CHAPTER IX. OF YWAIN'S JOURNEY BY NIGHT, AND HOW HE WAS BROUGHT BY A LADY TO THE PLACE OF HIS VISION, AND SO LEFT HER.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter09">CHAPTER IX. OF YWAIN'S JOURNEY BY NIGHT, AND HOW HE WAS BROUGHT BY A LADY TO THE PLACE OF HIS VISION, AND SO LEFT HER.</h2>
 
 <p>So Ywain turned him from his watching: and as he turned him he drew his breath again, and his heart rose and he took the path strongly among the heather. And he went therein a good two hour or more, until he saw upon his left side how the land rose up ridgewise like the back of a great hog: and for all that it was night, yet he saw the top of the ridge clearly, as it were a black line that ran along the sky. And thereover stood the moon all broad and yellow, and he perceived that this was the place of her setting, as the hermit had shown it to him by his counsel. Then he knew that it was hard on midnight, and he had great gladness because that he had come so far on his way and no time lost. And he left the heath and took a good road that was below the ridge, and for a little space the moon hung above him as it were a great lantern of yellow horn. And then she sank behind the ridge, and in no long time afterwards the land was dark. Nevertheless he ceased not to go swiftly and without stumbling, for the stars were now brighter before him, and the road under his feet was smooth and white with dust, so that he had no need to walk warily. And as he went he remembered all the words of the hermit, and he turned them over in his mind as a man turns over his money upon his hand: for it may chance that he knows not yet how much it is, or in what manner it may serve him. Even so Ywain considered the words of the hermit, and namely the two secrets: whereof one was plain to his understanding and one was dark. For he was of himself fully minded to follow his desire; but to serve another was no such matter, seeing that in his old life he had served both lords and over-lords, and for his wages had little but weariness. And in this wise he reasoned hotly as he went, speaking as it might have been to the hermit himself there present.</p>
 
@@ -473,10 +544,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter10">CHAPTER X. OF THE LADY AITHNE, AND OF THE GIFTS THAT SHE HAD FROM HER BIRTH.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter10">CHAPTER X. OF THE LADY AITHNE, AND OF THE GIFTS THAT SHE HAD FROM HER BIRTH.</h2>
 
 <p>Now leave we Ywain to his fighting and turn we to the lady, that was there heavily cast down to be so left and benothinged. For she was of all earthly women the most beautiful and the wisest in magic: yet she had great need of such as would serve her truly, for her life was full of pain and perplexity, being divided in a strange manner between two realms. And this came of no sudden hap, but it fortuned so to her from her birth, and was according unto her nature, as I shall show you.</p>
 
@@ -497,10 +571,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter11">CHAPTER XI. HOW THE LADY AILINN DEPARTED OUT OF THIS LIFE AND OF THE COUNSEL THAT SHE GAVE TO HER DAUGHTER AITHNE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter11">CHAPTER XI. HOW THE LADY AILINN DEPARTED OUT OF THIS LIFE AND OF THE COUNSEL THAT SHE GAVE TO HER DAUGHTER AITHNE.</h2>
 
 <p>THEN with the years so passing the time came that Aithne was a damsel grown, and many knights sought her love and many asked to have her in marriage. And it happened at this time that her mother, the Lady Ailinn, was taken with sickness, and though her malady was but light to the deeming of such as saw her and heard her speak thereof, yet inwardly she knew that the end of it was to be by death only.</p>
 
@@ -516,10 +593,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter12">CHAPTER XII. OF THE WARRING OF TWO COMPANIES, AND HOW YWAIN DID BATTLE FOR THE ONE OF THEM AGAINST THE OTHER.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter12">CHAPTER XII. OF THE WARRING OF TWO COMPANIES, AND HOW YWAIN DID BATTLE FOR THE ONE OF THEM AGAINST THE OTHER.</h2>
 
 <p>Mark now that which I tell you concerning the Lady Aithne: for after the manner of minstrels I tell you both that which she knew herself and that which she knew not. First then she knew not, for all her magic, that this was a man of a strange fortune, and as it were born again by the casting away of his possessions: nor she knew not yet what her spirit and his spirit had perceived at first sight, each of other. But she knew in her heart darkly that he was either boon or bane to her, for of his coming she had been warned without words, as it will happen to those that have the gift: and this also darkly, that his looking and his speaking were both to her mind, whereby she was the more cast down at his breaking from her. And again she knew not wherefore he should wish to go, yet she could not choose but remember that he seemed to have some great purpose in his going; and upon a man’s face such purpose will show like beauty, so that even out of her pain there grew a sweetness, as fruit grows out of the wounding of a tree.</p>
 
@@ -533,10 +613,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter13">CHAPTER XIII. HOW YWAIN WAS BROUGHT INTO THE CITY OF PALADORE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter13">CHAPTER XIII. HOW YWAIN WAS BROUGHT INTO THE CITY OF PALADORE.</h2>
 
 <p>WELL may you imagine that Ywain was astonished as he went, for it came upon him coldly that he knew not what he had done, nor wherefore, and moreover he saw that he had not yet come to the end of the matter. And he would willingly have questioned those that went with him, but they were every man of them a-bawling and a-singing, and when he spoke to them they answered nothing to the purpose, but continued praising him and giving him joy. And so with great tumult they came before the gate of the city, and there was Ywain yet more astonished, for he had thought to find it well shut and defended. But now the barriers were down and the gate was open, and upon the gatehouse and upon the walls there stood a multitude of people past counting, and they cried: An Eagle! an Eagle! and shouted for joy every man louder than another.</p>
 
@@ -548,10 +631,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter14">CHAPTER XIV. HOW YWAIN SAT AT FEAST IN PALADORE WITH THE COMPANY OF THE TOWER AND THE COMPANY OF THE EAGLE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter14">CHAPTER XIV. HOW YWAIN SAT AT FEAST IN PALADORE WITH THE COMPANY OF THE TOWER AND THE COMPANY OF THE EAGLE.</h2>
 
 <p>Now the hall was ordered within as for a feast, and the ordering of it was after the accustomed manner of feasts: for at one end of it was a high table upon a dais, and other two tables there were that came squarely therefrom as the two posts of a door come squarely from the lintel. And the napery upon the tables was fine and white, and the dishes were of silver: but upon the dais was a cupboard, and the cups upon it and the ewers and the plates were all of gold. And up and down the hall there went six marshals who showed courteously to each man where he should be seated: and they showed to Ywain a seat at the high table, and when he sat therein he overlooked wellnigh all the hall. Then came two pages with water to let wash his hands, whereof he thanked them without feigning. Then the marshals brought to him those that should sit on either side of him, and when they had demanded of Ywain how he should be called, then they named each to other by their names. And of those two the one was called Sir Rainald, and he was shaped like a pear and yellowed in face, and slow of speech as one upon whom men wait: and about his neck was a gold chain, and a jewel of gold hung thereby, made in the fashion of a tower. But the other of them was by name Hubert, and he was a young man and slight; and he bore upon him the scutcheon of the Eagle, and his speech was restless and full of joy.</p>
 
@@ -569,10 +655,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter15">CHAPTER XV. OF THE GIFTS THAT WERE GIVEN TO YWAIN AND OF A DREAM THAT HE DREAMED.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter15">CHAPTER XV. OF THE GIFTS THAT WERE GIVEN TO YWAIN AND OF A DREAM THAT HE DREAMED.</h2>
 
 <p>AND it was now long past noon, but the crowd continued still in the market-place, and when they saw Ywain come out upon the steps they shouted again: for above all things they loved to see fighting and to hear tell of it. Also they were glad when they saw the Eagle go before the Tower: for men will reverence their betters and yet take pleasure to see them discomfited; moreover they of the Tower ruled continually over them and were thereby the heavier to bear, but they of the Eagle came only to make sport for them.</p>
 
@@ -591,10 +680,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter16">CHAPTER XVI. HOW YWAIN FOUND HIS LADY AGAIN, AND HOW SHE WENT FROM HIM THE SECOND TIME.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter16">CHAPTER XVI. HOW YWAIN FOUND HIS LADY AGAIN, AND HOW SHE WENT FROM HIM THE SECOND TIME.</h2>
 
 <p>LONG time was Ywain musing on that which had befallen him by night, and it seemed to him that he had been made to live as it were in two lives, seeing that out of one sleep he had twice awaked. And of the truth of this he had no certainty, but of his service that he had sworn to his lady, of that he had certainty, for whether in his dream or out of his dream his heart assented thereto. Moreover, he desired greatly to come again to that house where he had seen her go from him: and if such a house there were in Paladore, he doubted not to find it, for he saw yet before his eyes the shield of arms that was there beside the door, and it was party of sable and silver, with a ship sailing therein counter-coloured.</p>
 
@@ -621,10 +713,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter17">CHAPTER XVII. OF ALADORE AND OF THE SANDS CALLED THE SHEPHERDINE SANDS.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter17">CHAPTER XVII. OF ALADORE AND OF THE SANDS CALLED THE SHEPHERDINE SANDS.</h2>
 
 <p>THEN Ywain groaned inwardly, for he said, I am a fool and worse than a fool, and for a moment he hated himself and all that he had done. But afterward he considered a little and said, This comes not of folly but of newness, for I have not been used to live in two several lives. Yet by all seeming my lady does even so, and I with her: therefore she knew well that I was her sworn servant, dream in and dream out, and if I had bethought me of this I had never been angry. But now I have offended the second time, and how I am to meet with her again I cannot tell, seeing that she comes and goes like the wind among the leaves. So he went down the house and out of it, and set his face to go toward the sea, for he thought by carefulness or by good hap he might come to perceive that which before had been hid from him. And as he went he heard one call him by his name, and he looked about and saw the young man Hubert behind him coming quickly, and he stayed for him so that they went forward together. And as they went they talked, and this time also Hubert told Ywain all such things as he demanded to know, for whether feasting or fasting he was ever the same man, and his speech was restless and joyful.</p>
 
@@ -650,10 +745,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter18">CHAPTER XVIII. OF PALADORE AND OF THE PRINCES THEREOF.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter18">CHAPTER XVIII. OF PALADORE AND OF THE PRINCES THEREOF.</h2>
 
 <p>RIGHT so came the sound of trumpets from within the battlements: and Hubert started up upon his feet and said joyfully how it was the trumpets in the Great Gard blowing to hall. And he made Ywain also to rise up and go with him: and he brought him again through the gate and into the city, and so to his own lodging, and there Hubert would have Ywain to dine with him and with certain others. And of those others one was named Maurice and another Bartholomy and the third Dennis, and they were all the three of them young men and restless in their speech as was Hubert himself. So they five talked together all the time of dinner, and afterward they rose not from the table but continued talking.</p>
 
@@ -667,10 +765,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter19">CHAPTER XIX. HOW YWAIN SPOKE WITH THE PRINCE OF PALADORE AND HOW HE TOOK UPON HIM THREE ADVENTURES.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter19">CHAPTER XIX. HOW YWAIN SPOKE WITH THE PRINCE OF PALADORE AND HOW HE TOOK UPON HIM THREE ADVENTURES.</h2>
 
 <p>So when he had met with Sir Rainald, they two went up together into the Great Gard: and when they came therein Ywain perceived that Maurice had told him truth, for the house was high and wide and full of great chambers, and in no way fit to be the dwelling of a man, save he were of a bigness beyond all other. Also he saw that the farther from the gate the taller were all those on whom he came: and it seemed to him as though he also took some change thereby. For when he had been brought into the chamber that lay before the chamber where the Prince was, then he began to doubt of his own stature, and his bones became shrunken and his sinews weak within him.</p>
 
@@ -684,10 +785,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter20">CHAPTER XX. OF THE ADVENTURE OF THE CHESS, AND BY WHAT MEANS YWAIN BROUGHT HIS MEN INTO OBEDIENCE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter20">CHAPTER XX. OF THE ADVENTURE OF THE CHESS, AND BY WHAT MEANS YWAIN BROUGHT HIS MEN INTO OBEDIENCE.</h2>
 
 <p>So within a while came letters to Ywain appointing him a day for the adventure of the Chess. And on the day appointed he looked forth from his house and saw how there stood before the door a company of great ones, and they called to him courteously and showed him a horse that was made ready for him. And when he came out to them they let cover him with a cloak of silver and blue, and they gave him for his head a cap of silver with a plume of blue, and he perceived that his horse was furnished in the like colours. Then they brought him to the gate of the city that looked toward the South, and one of them told him by what way he should go, and how it behoved him to come before noon to the Castle of the Chess, and so prove the adventure. Also another of them cast a baldrick and a horn about his neck, and said how that without doubt it should fortune to him as he should deserve, and if so be that he achieved the adventure then when he came again he should come blowing upon the horn, that his friends might make ready betimes to meet him. And some there were that laughed thereat, and among their faces Ywain saw the face of Sir Rainald.</p>
 
@@ -717,10 +821,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter21">CHAPTER XXI. OF THE ADVENTURE OF THE CASTLE OF MAIDENS AND HOW YWAIN WAS COUNSELLED TO ESCAPE THEREFROM.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter21">CHAPTER XXI. OF THE ADVENTURE OF THE CASTLE OF MAIDENS AND HOW YWAIN WAS COUNSELLED TO ESCAPE THEREFROM.</h2>
 
 <p>Now for this adventure Ywain had great honour of all the commons, for there was no sort of fighting that they did not love, and they gave praise above measure to him that could bring men into his obedience. Wherefore they were not willing that Ywain should meet as yet with the Howling Beast, for by that adventure they had lost many that should have been great men for them. So they went clamouring that he might be assigned a day for the Castle of Maidens, for that was an adventure without pain and without peril, as the most of them deemed: howbeit others there were that thought otherwise.</p>
 
@@ -742,10 +849,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter22">CHAPTER XXII. OF THE ADVENTURE OF THE HOWLING BEAST.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter22">CHAPTER XXII. OF THE ADVENTURE OF THE HOWLING BEAST.</h2>
 
 <p>THEREAFTER Ywain continued in weariness, and in despite and anger against the great ones of Paladore: for he perceived how they had devised these adventures of a very purpose, so that they might have him at their will by fellowship or else by treason. Moreover he longed greatly to see his lady again, and could not: and of such longing also comes weariness, when a man sees time go by and nothing bettered. So Ywain made search in all Paladore, if he might but hear tell of the Lady Aithne: and he found some few that would speak of her, and little he got of them. For one would say how she was gone into a far country, and one how she was ever a wanderer: and thereby they intended no good thing, for their meaning touched on Aladore, howbeit they named not the name. So Ywain went to and fro, and returned continually to the house where he had seen her: and in a three days he came there twenty times, and at last he thought to lie like a dog before her doorway.</p>
 
@@ -774,10 +884,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter23">CHAPTER XXIII. HOW YWAIN EMPRISED TO GO TO THE CITY OF THE SAINTS AND SO INTO THE DELECTABLE ISLE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter23">CHAPTER XXIII. HOW YWAIN EMPRISED TO GO TO THE CITY OF THE SAINTS AND SO INTO THE DELECTABLE ISLE.</h2>
 
 <p>So within a while he came to the gate, and found it wide open. And when he had passed out he looked towards Paladore, for they which brought him thence had spoken of a day and a night, and they said how they would return again thereafter, if perchance they might find him still in life and understanding. And as he looked he saw far off a company that moved upon the road hitherward: but he perceived that they came not ahorse but afoot, and they were not two but many. Also they were banded in good order as they came, and kept measure, foot by foot, and they sang all together: and that which they sang was a godly hymn, but it was some deal fierce in the singing.</p>
 
@@ -791,10 +904,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter24">CHAPTER XXIV. HOW YWAIN SAW THE CITY OF THE SAINTS THE FIRST TIME AND HOW HE HEARD THE BELLS THEREOF.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter24">CHAPTER XXIV. HOW YWAIN SAW THE CITY OF THE SAINTS THE FIRST TIME AND HOW HE HEARD THE BELLS THEREOF.</h2>
 
 <p>Now was Ywain once more upon pilgrimage: yet he had not that joy which he had aforetime, when he left his house of Sulney. For then he went of his own will and followed after the boy, that was no stranger to his blood: but now he was lonely and without desire, and though he had somewhat to seek, yet his going moved rather from despair. Also the sky was changed above him, for the year began to leave summer and to turn towards winter, and the green was brown and the brown yellowing, and the nights coldened and the days drew in. Moreover Ywain walked not so willingly with all his company: for some of them were but ale-knights which had repented them when they were adrunken, and some were swashers home from war, and others there were which loved anguishment above all, and being feeble goers would make themselves yet feebler, with peasen underfoot and hairy shirts and bodycords about them. Neither were they wholly at one in their emprise: for the half of them were in hope to be at rest in the City of the Saints, and the other half to be speedily at war against their enemies, so that many times when they sang their singing was diverse, and their fellowship most like to go agrief.</p>
 
@@ -810,10 +926,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter25">CHAPTER XXV. OF THE MANNER OF THE CITY AND HOW YWAIN FELL ADROWSING THEREIN.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter25">CHAPTER XXV. OF THE MANNER OF THE CITY AND HOW YWAIN FELL ADROWSING THEREIN.</h2>
 
 <p>AH, said Ywain, what is this city and by whom builded? For it is certain that I came never here until now, and yet there is not one tower of it that I know not of old time. And Bartholomy answered him not, but out of the dusk a voice came and answered him, saying: Good truth and good reason, for this city was builded from the beginning, and all men are by nature free thereof; so that come they what day they will they come not as strangers but inheritors. Then Ywain saw a man before him standing, habited after the fashion of the religious: and he saw him gladly, for he took comfort in the words that he had spoken. And Bartholomy was comforted also, for he had been in doubt how they should come that night into the city, seeing that by likelihood the gates would be shut and guarded. And he took the man by the hand and entreated him that he would make good his saying: and he told him how they were of Paladore, come hither by reason of weariness, and how they were by name Ywain and Bartholomy. And he answered them, Yea, but they should have new names for a new life; for he also had in the world a name worldly, but was now become Vincentius, and prayed daily against remembrance of things past.</p>
 
@@ -829,10 +948,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter26">CHAPTER XXVI. HOW YWAIN FOUND HIS LADY IN A GARDEN.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter26">CHAPTER XXVI. HOW YWAIN FOUND HIS LADY IN A GARDEN.</h2>
 
 <p>Now in this drowsihood was Ywain living well content: and the winter passed over and the year began to stir again from under ground. And March came with dust and dryness, and then came April with sweet showers to pierce that dryness, and in the gardens the small birds were a-pairing and a-nesting busily. But Ywain was still assotted upon bells, and his mind was subdued unto the tune of them. For he forgot neither his love nor his seeking: but when he should have wept therefor he remembered them only as an old and tender tale, or as a picture of one aforetime living, but now departed where is neither hope nor striving.</p>
 
@@ -855,10 +977,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter27">CHAPTER XXVII. HOW YWAIN WAS BIDDEN TO AN ABBEY AND SO TO BE ENTRAPPED BY TREASON.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter27">CHAPTER XXVII. HOW YWAIN WAS BIDDEN TO AN ABBEY AND SO TO BE ENTRAPPED BY TREASON.</h2>
 
 <p>WHEN Aithne had so said she stood looking upon Ywain: and her face was troubled, and her soul looked out of her eyes patiently, as it were one waiting for the dawn. For she was but newly come from Aladore, and she remembered as of yesterday how her mother had spoken with her before her death. And of Ywain she knew well that he was in good truth her friend and her lover: but for the rest she doubted, and in especial whether he were of one kind with her, that they might dwell together and find no division. And Ywain looked upon Aithne, and he also was troubled, but after another fashion: for he doubted not of her, but of himself.</p>
 
@@ -876,10 +1001,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter28">CHAPTER XXVIII. HOW THE MOON CHANGED, AND HOW YWAIN BROKE FORTH FROM THE CITY OF THE SAINTS.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter28">CHAPTER XXVIII. HOW THE MOON CHANGED, AND HOW YWAIN BROKE FORTH FROM THE CITY OF THE SAINTS.</h2>
 
 <p>So when the evening was come Ywain and Bartholomy accompanied together; and they went through the city darkling, for the moon was now in umbrage. And when they came to the Abbey where was the Golden Bell, they found a crowd gathered thereabout, and the gate well guarded: and within the gate was Vincent with certain others. And there was a great lanthorn above, and when they came beneath the light of the lanthorn Vincent saw them who they were: and he greeted them and brought them to the Chapel.</p>
 
@@ -895,10 +1023,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter29">CHAPTER XXIX. HOW YWAIN CAME INTO THE LOST LANDS OF THE SOUTH, AND OF THREE SIGNS WHEREBY THAT COUNTRY MIGHT BE KNOWN.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter29">CHAPTER XXIX. HOW YWAIN CAME INTO THE LOST LANDS OF THE SOUTH, AND OF THREE SIGNS WHEREBY THAT COUNTRY MIGHT BE KNOWN.</h2>
 
 <p>Now Ywain had in his going but one only intent, and that was by reason of his lady’s word that he should find her in the South. So he ceased from his running and his shouting, and he looked upon the stars; and under the Herdsman he found the South and made to go thitherward. But he went not by the way of the high-road: for he supposed that Vincent and his would raise hue and cry after him. So he left the road and climbed forthright upon the foothills that were hard by the city. And as he had supposed, so he saw it come about upon the road beneath him: for there issued suddenly out of the gateway both lanthorns and torches, like a scattering of sparks out of a chimney. And they which bore them ran hither and thither both up and down the road, bawling and babbling in the worst manner: for their voices were harsh to hear, and out of all tune of bells. And Ywain sat above and beheld them unaware: and all their fury was by reason only that one had forsaken their ordinance.</p>
 
@@ -940,10 +1071,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter30">CHAPTER XXX. HOW YWAIN HAD FELLOWSHIP WITH THE FAUNS.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter30">CHAPTER XXX. HOW YWAIN HAD FELLOWSHIP WITH THE FAUNS.</h2>
 
 <p>So Ywain lay there upon the earth, and his laughter ebbed from him: and he set him to gather his wits together as a huntsman gathers his hounds that have been chasing over wide. And in part he gathered them but not all: for it seemed that some part of him was beyond calling and would not return. But of that he left thinking, and was content: and his heart was emptied of all thoughts save three only. For he had great desire of eating and of fellowship and of dancing: and the sun filled him with strength and the air quivered before his eyes, and he leaped up upon his feet.</p>
 
@@ -955,10 +1089,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter31">CHAPTER XXXI. HOW YWAIN MET WITH A SHEPHERDESS AND HEARD A MUSIC, AND HOW HE HAD SIGHT OF ALADORE THE FIRST TIME.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter31">CHAPTER XXXI. HOW YWAIN MET WITH A SHEPHERDESS AND HEARD A MUSIC, AND HOW HE HAD SIGHT OF ALADORE THE FIRST TIME.</h2>
 
 <p>THUS began Ywain to be consorted with fauns, and to live after their manner: and he slept with them that night in a little wildwood fast by a river. And before they slept they gave him to eat of such things as they had: and truly his supper was no feast. For the fauns live all by nuts and by grains, and have no bread: also they will taste flesh but they know not the use of fire. So on the morrow early they caught a good fish and tore it: and when they perceived that Ywain loved not raw meat, then they had pity on him. And they left the river and brought him to a shepherd’s hut, and they made him understand that he should go nearer and knock upon the door. For they knew that where there were men, there belike would be men’s meat, whether of bread or of flesh.</p>
 
@@ -987,10 +1124,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter32">CHAPTER XXXII. HOW YWAIN LIVED AS IT HAD BEEN IN THE GOLDEN AGE AND HOW HE WAS STILL UNSATISFIED.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter32">CHAPTER XXXII. HOW YWAIN LIVED AS IT HAD BEEN IN THE GOLDEN AGE AND HOW HE WAS STILL UNSATISFIED.</h2>
 
 <p>RIGHT so came the night and they got them homeward. And Aithne went to her hut, where she had her living among the shepherds, but Ywain returned and rested with the fauns. And he slept not, but lay a great time waking, and longing for the morrow morn: whereby he hastened it not, but delayed it rather. And this is the folly of men that they will look ever forward to that which they have not, and take no rest in that which they have. For Ywain had that day gathered to fill both his hands—namely, by seeing Aladore and by taking of his lady in arms: and in a long life there will come but few such days, so that it were wisdom to cherish them in memory. But Ywain remembered scantly that which was past and gathered, for his mind was all on the kisses that were to come: and folly it was past gainsaying, but of such folly is the life of man.</p>
 
@@ -1002,10 +1142,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter33">CHAPTER XXXIII. OF THE MADNESS OF THE FAUNS, AND HOW YWAIN FORSOOK THEM SUDDENLY, AND HIS LADY WITH HIM.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter33">CHAPTER XXXIII. OF THE MADNESS OF THE FAUNS, AND HOW YWAIN FORSOOK THEM SUDDENLY, AND HIS LADY WITH HIM.</h2>
 
 <p>MOREOVER when midsummer was now come Ywain began to misdoubt him of the fauns: for from gentle they were become fierce, and when he saw their eyes he saw them changed, as a sky that is hot with thunder. Also they departed from him continually, both by night and by day, and he saw how they went wandering alone and secretly: and when they went forth they went as it were ravening like beasts, and when they came again they came weary and shamed before him, as with the shame of men, for in their nature they were divided between two kinds.</p>
 
@@ -1023,10 +1166,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter34">CHAPTER XXXIV. HOW YWAIN AND AITHNE WENT FLYING BETWEEN SUN AND MOON.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter34">CHAPTER XXXIV. HOW YWAIN AND AITHNE WENT FLYING BETWEEN SUN AND MOON.</h2>
 
 <p>THEN they went hastily until it was past noon, and Ywain would not that they should stint, till at last they wearied both, and lacked strength for lack of meat. And they espied a shepherd’s but all lonely among the hills, and it stood fast by a thicket, and they knew not whose it might be, for it was far off from the valley of their dwelling. So they came thither and found it empty, for the shepherds were abroad with their flock. Then they went within the hut and shut to the door and thought to rest them awhile. But Ywain sat him down beside the window and hid himself, that he might keep watch, for he doubted that they were not yet wholly escaped.</p>
 
@@ -1048,10 +1194,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter35">CHAPTER XXXV. OF THE CITY OF DAEDALA, AND HOW AN OLD DAME THEREIN DESPAIRED OF IT.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter35">CHAPTER XXXV. OF THE CITY OF DAEDALA, AND HOW AN OLD DAME THEREIN DESPAIRED OF IT.</h2>
 
 <p>So they went swiftly and spoke no word, being astonished unto dumbness: for their life was changed suddenly and they were in no place of the world. But he that bore them held his course, and he flew Eastward by the space of an hour. Then they were aware how he sloped downwards in his flight, and they looked and saw beneath them a great city on the border of the sea, and in no long time they came lightly down and took land before a gate that was there. Then they three entered afoot into the city, and they came quickly to a good house and were received therein. Now the house was the house of an old and noble dame, by name Eirene, and she was the mother of Hyperenor, which had borne Ywain and Aithne upon his wings. And them she greeted courteously, and received them to be her guests while it should please them: but to her son she spoke after another sort. For in one and the same breath she dealt him sweet words and bitter, giving thanks to all the gods for his home coming, and also bidding him begone where she might never be troubled with him more. And after this manner she continued all supper-time, and she would have Aithne to know how she was the most miserable of all women living.</p>
 
@@ -1063,10 +1212,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter36">CHAPTER XXXVI. OF A PROMISE THAT WAS MADE TO YWAIN, AND HOW HE TOOK WINGS TO SEEK FOR ALADORE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter36">CHAPTER XXXVI. OF A PROMISE THAT WAS MADE TO YWAIN, AND HOW HE TOOK WINGS TO SEEK FOR ALADORE.</h2>
 
 <p>THEN after supper the old dame went out, and Aithne with her, and Ywain was left there with Hyperenor, and they two sat a long time talking together. And as they talked they drank their wine, by cup and by cup: and they sat beside a window, and the window was open wide, looking upon the city and upon the lights thereof, and the night over them was blue and spangled with bright stars. And Ywain perceived how that Hyperenor was no longer strange to him, but near and kind as out of old friendship: and he spoke with him concerning many matters, and was accorded with him continually. Then at the last he spoke of Aladore, and he told him how that he must of necessity come there to be wedded with his lady, and how he had sight of that land as it were of a cloud in heaven, yet he could by no manner of means attain to find it.</p>
 
@@ -1088,10 +1240,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter37">CHAPTER XXXVII. HOW YWAIN CAME THE SECOND TIME TO THE HERMIT, AND HOW HE TOOK COUNSEL OF HIM.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter37">CHAPTER XXXVII. HOW YWAIN CAME THE SECOND TIME TO THE HERMIT, AND HOW HE TOOK COUNSEL OF HIM.</h2>
 
 <p>NOW Ywain fell swiftly earthward, and belike the time of his falling was no great space: but to him it seemed long, beyond reckoning, for his wits were battered and edgeworn, as a stone is worn by a hundred years of rolling. And whiles he dropped headlong through the void, and whiles the wind came up beneath him and lifted him lightly, so that he rose and fell as it were upon great waves of the sea. But at the last he came hurtling down upon a forest, and among the trees of it his wings were caught and broken: yet was Ywain not broken therewith, but he took the earth easily and recovered himself.</p>
 
@@ -1113,10 +1268,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter38">CHAPTER XXXVIII. HOW YWAIN RETURNED AGAIN TO PALADORE FOR TO DWELL THERE, AND HOW HE SPOKE TO APPEASE A STRIFE THAT WAS BETWEEN THE PEOPLE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter38">CHAPTER XXXVIII. HOW YWAIN RETURNED AGAIN TO PALADORE FOR TO DWELL THERE, AND HOW HE SPOKE TO APPEASE A STRIFE THAT WAS BETWEEN THE PEOPLE.</h2>
 
 <p>So on that day Ywain had converse with the hermit, and on the morrow early he departed from him. And he went from him by the former way, but he went not after the former manner: for at this time his journeying was by daylight and not by moonlight, and he had no aid of horses but fared always upon his feet. Notwithstanding he made good speed and came betimes to the place of the stepping-stones, and it seemed to him a place right dreary and desert, where before had been his lady with him and great fighting upon the bank. So he passed on quickly and came to Paladore: and he saw the city also as a dim and dreary city, for his heart was fordone with loneliness and his thought dragged like a man that is footsore with going.</p>
 
@@ -1134,10 +1292,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter39">CHAPTER XXXIX. HOW YWAIN BEHELD A GAME OF CHILDREN AND HEARD THEIR SINGING.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter39">CHAPTER XXXIX. HOW YWAIN BEHELD A GAME OF CHILDREN AND HEARD THEIR SINGING.</h2>
 
 <p>Now Ywain stood still to see the crowd departing, and of them which came near to him there were some which greeted him and some which looked sullenly upon him. And as he saw them he thought upon the fashion of this world, wherein all men are homeless: for though a man dwell where he will and see good days, yet everywhere he will be at strife with some, and belike with many. Then he thought to go to his own house, and he came there and entered into it: but when he was therein he looked about him doubtfully, for he could not tell if it should be still his own, or given to another.</p>
 
@@ -1196,10 +1357,13 @@
 <p>Now these were all the verses which the children sang, but when they had sung them all, then they sang the last verse again and yet again. And as they sang they turned them about, and they went by two and by two along the edge of the green steep, after the manner of lovers or of friends which go together on pilgrimage: and when Ywain saw that his heart burned his eyes, for even in the playing of the children he beheld an image of his own life. But they went from him quickly, for they continued still in their singing and their marching, and they passed by a tower that was in the wall and Ywain saw them no more. But he heard their singing far off, when they were long gone from him, and at the last he knew not in truth whether he heard it or heard it not, but only he knew that the sound of it was still abiding with him.</p>
  
 
+</div>
 
 
 
-<h2 id="chapter40">CHAPTER XL. HOW YWAIN CAME TO ALADORE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter40">CHAPTER XL. HOW YWAIN CAME TO ALADORE.</h2>
 
 <p>THEN Ywain went forth again from the gateway, and he came to the edge of the High Steep, to the place wherein the children had their pastime: and there under the trees he began to go to and fro, for he was restless by reason of the song that was yet in his ears. And as he went to and fro the song continued with him, and it worked as it were an enchantment in his blood: for he kept looking upon Aladore, that lay there under the sky border, beyond the Shepherdine Sands, and he saw it in a light that was no light of earth. And he knew no longer where he might be, but the world was lost and vanisht from him; and his feet ceased from going, and he stood at gaze, looking only upon that land of his desire.</p>
 
@@ -1225,10 +1389,13 @@
 <p>Then when he heard those words he assented thereto, and he laughed in his heart and so passed on: for they seemed to him nothing new, but he heard them as it were out of childhood and sweet memory. And he entered by the gateway and came singing into the city; and the streets of it were cool and shining like pale gold, for they were all agleam with a light mist of sunrise.</p>
  
 
+</div>
 
 
 
-<h2 id="chapter41">CHAPTER XLI. HOW YWAIN ENTERED INTO THE RHYMER'S HERITAGE, AND HOW HE FOUND HIS LADY THEREIN.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter41">CHAPTER XLI. HOW YWAIN ENTERED INTO THE RHYMER'S HERITAGE, AND HOW HE FOUND HIS LADY THEREIN.</h2>
 
 <p>Now as Ywain went into the city he went joyfully, for his heart was uplifted, and his thoughts were like high white clouds in a blue sky of summer. And most of all he joyed to see the beauty of the place, for the form of it was the form of Paladore, but the beauty was mingled of likeness and unlikeness. And wherever he looked, there he saw that which he remembered, and there also he saw that which he remembered not, so that his joy was both old and new.</p>
 
@@ -1249,10 +1416,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter42">CHAPTER XLII. HOW YWAIN AND AITHNE WERE GIVEN EACH TO OTHER, AND HOW THEY WERE WEDDED BY THE FREEDOM OF ALADORE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter42">CHAPTER XLII. HOW YWAIN AND AITHNE WERE GIVEN EACH TO OTHER, AND HOW THEY WERE WEDDED BY THE FREEDOM OF ALADORE.</h2>
 
 <p>THEN Ywain stood still and mused, looking down upon the grass about his feet: and he mused upon his pilgrimage whereby he had at last come hither. And Aithne asked him of his musing, and he answered her not, but he said: Tell me, O my beloved, when shall be the end of this my pilgrimage? And she answered: It is ended, for the shrine is found, and the lamp of the world is lit afresh. But he asked her again: By what token shall I have certainty of this? And she said: By a flame and by a gift, for by those tokens is love confirmed of all lovers both of old and for ever. Then his blood beat and his throat trembled and he said: Yea, beloved, but it may yet be far to the hour of giving. And she also trembled and said: The hour of giving is the hour of starlight, and between the sunsetting and the moonrising it will be here. Then Ywain looked again upon the ground and he saw beside his feet the long morning shadows, and he said: It is far, O my beloved. And she said: Nay, but have I not told you, that all things here are yours, for that you only are the master of the dream?</p>
 
@@ -1270,10 +1440,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter43">CHAPTER XLIII. HOW AITHNE SHOWED YWAIN OF THE ENCHANTMENTS OF THE RHYMER, AND OF THEM WHICH DO THEREAFTER.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter43">CHAPTER XLIII. HOW AITHNE SHOWED YWAIN OF THE ENCHANTMENTS OF THE RHYMER, AND OF THEM WHICH DO THEREAFTER.</h2>
 
 <p>So in this wise Ywain and Aithne fulfilled their youth, and they entered into newness of life. And they endured no more the fear of time, for in Aladore are days and seasons, but no count of them: and there is there neither change nor perishing.</p>
 
@@ -1303,10 +1476,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter44">CHAPTER XLIV. HOW YWAIN BEHELD HIS LADY SLEEPING, AND HOW HE DESIRED TO SEE THE CASTLE OF KERIOC.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter44">CHAPTER XLIV. HOW YWAIN BEHELD HIS LADY SLEEPING, AND HOW HE DESIRED TO SEE THE CASTLE OF KERIOC.</h2>
 
 <p>So Ywain dwelt in a land of enchantments, and had his will thereof continually. And many things he devised for his joyance, and one thing beyond all other. For it befell him on a day that he awoke at dawn, and thereafter came the sunrise and made light the chamber where he was. And he turned him and looked upon Aithne, thereas she lay still sleeping: and her face was fresh and clear and tranquil as the face of a little maid in her flower of youth. And as Ywain looked upon her his heart was pricked through with a sudden pain: for he saw her as she had been aforetime, in the days when she was no lady of his. And the pain was sharp, for wellnigh he forgot that which he knew of her, and thought only on that which he knew not, and he perceived that he could never come thereto, except he should go behind the back of time.</p>
 
@@ -1322,10 +1498,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter45">CHAPTER XLV. HOW YWAIN FOUND AGAIN HIM WHICH WAS FORGOTTEN IN ALADORE, AND HOW HE HEARD A RING OF BELLS AT MIDNIGHT.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter45">CHAPTER XLV. HOW YWAIN FOUND AGAIN HIM WHICH WAS FORGOTTEN IN ALADORE, AND HOW HE HEARD A RING OF BELLS AT MIDNIGHT.</h2>
 
 <p>THEREAFTER came Ywain many times into the castle of Kerioc, and Aithne with him. For she loved greatly to have him there, notwithstanding that she had good game at him when he went thither the first time: and in especial she would have him there in winter at the time of Yule. For that castle stands by the very margent of the sea upon a high rock; and it is in fashion like to an island, for on the one side it is set high above the land and on the other side it goes down steeply toward the shore. And the wind of winter goes over it from the land seaward: and on the shore is warm lying among the sand-hills which are beneath the castle. And above the sand-hills is a postern gate and steps of stone: and thereby came Ywain and Aithne many times unto the shore at midnight, that they might see the stars and hear the crying of the birds. For the sea-birds cry about that place with a sweet cry and a sad, and in the darkness they draw near and are not seen, as it were the souls of the beloved.</p>
 
@@ -1345,10 +1524,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter46">CHAPTER XLVI. HOW YWAIN WAS COUNSELLED OF THE PRINCE OF PALADORE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter46">CHAPTER XLVI. HOW YWAIN WAS COUNSELLED OF THE PRINCE OF PALADORE.</h2>
 
 <p>THEN Ywain came to the height of the steep, and there before the gate he stood in doubt, for he knew not whither he should go. And in his doubt his feet drew him unwittingly, and he looked up suddenly and saw the Great Gard and the courtyard which was before it. And the courtyard was as it had been aforetime, with halberdiers before the door and men a-horseback in their armour: and the Rhymer’s Hall and the minstrels and all his dealings therein seemed but an old vision or a show which had passed into memory. Notwithstanding he doubted even of his misery: for he said within himself: Surely this also is a dream, and there beyond the garden close is my lady waiting until I come to her.</p>
 
@@ -1364,10 +1546,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter47">CHAPTER XLVII. HOW YWAIN AND AITHNE HAD SIGHT OF HUBERT, AND RETURNED TOGETHER INTO PALADORE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter47">CHAPTER XLVII. HOW YWAIN AND AITHNE HAD SIGHT OF HUBERT, AND RETURNED TOGETHER INTO PALADORE.</h2>
 
 <p>Now was Ywain again in Aladore and accompanied with his love: and for a while he forgot the Prince and all his counsel, and went among divers delights as a honey-bee goes among a wilderness of flowers. And it befell on a night that he sat with Aithne beside a fountain, and in the pool of the fountain they looked upon the summer stars. And round about them were cypresses and shadows, and there was no wind in the hollow of the night nor any sound save a little silvery sound of the fountain.</p>
 
@@ -1383,10 +1568,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter48">CHAPTER XLVIII. HOW YWAIN WAS AWEARIED OF PALADORE, AND HOW HE WAS MISHANDLED BY THE GREAT ONES OF THE CITY.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter48">CHAPTER XLVIII. HOW YWAIN WAS AWEARIED OF PALADORE, AND HOW HE WAS MISHANDLED BY THE GREAT ONES OF THE CITY.</h2>
 
 <p>THEN they climbed the Steep together and entered into the city: and Ywain brought Aithne home to his own house. And he made her a little supper, scant enough, and drew wine for her of the wine which the Eagles had given him: and sweet it was still, but the spirit was gone out of it. And when they had eaten and drunk, then a great weariness came upon Ywain, and he spoke, and uttered his complaint unto Aithne: for he was adread to hear ill tidings of Hubert, and in his heart he sighed after the peace of Aladore. And his lady comforted him and said: Beloved, think not to be alone in weariness, for to me also the business of Paladore hath been as dust upon the tongue. But this is the fortune of men, to dwell in two realms, until that our life is changed: and it may be that the time is not long. And what matter, if by our own magic we may come and go? and what grief, if we may be together?</p>
 
@@ -1406,10 +1594,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter49">CHAPTER XLIX. HOW YWAIN WAS EXCOMMUNICATE AFTER THE CUSTOM OF PALADORE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter49">CHAPTER XLIX. HOW YWAIN WAS EXCOMMUNICATE AFTER THE CUSTOM OF PALADORE.</h2>
 
 <p>LITTLE enough thought Ywain of the anger of those great ones, for he held himself to have outreasoned them, and he perceived not how by his cunning the Archbishop had entrapped him before witnesses of repute. But Aithne perceived it, and more, for Ywain told her some deal, and other deal she divined of herself. And when she had considered a little she bade him make haste and do those things for which he came, and look not to be long unharassed of his enemies: for that they had fastened an ill quarrel upon him by no chance but by intent, and they were such as would follow their craft. So he went about the town busily, seeking out all those which were friends to Hubert and all those which were haters of evil custom: and he found some and persuaded other, and thought to have made good way. And this time also he perceived how he was favoured of the commons of Paladore; for he discoursed to them hotly, and they were ever assotted on discourse and on a burning tongue.</p>
 
@@ -1425,10 +1616,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter50">CHAPTER L. HOW YWAIN AND AITHNE CAME TO ALADORE THE LAST TIME, AS IN THIS TRANSITORY LIFE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter50">CHAPTER L. HOW YWAIN AND AITHNE CAME TO ALADORE THE LAST TIME, AS IN THIS TRANSITORY LIFE.</h2>
 
 <p>Now Ywain was known of none, for he was in a sure place and looked forth above the heads of the multitude. But he perceived all that was done, and none better, and he understood right well the evil malice and craft of his enemies, and his heart was pricked therewith as with the poison of wasps. And the tolling of the bell be regarded not, neither the treading of the candles, for he held such things to be shows to frighten fools: but the curses and the sentences, and all the words of the Archbishop, those stung his blood and made bitterness in his throat.</p>
 
@@ -1448,10 +1642,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter51">CHAPTER LI. OF TWO CITIES THAT WERE BUILDED DIVERSELY, AND HOW YWAIN AND AITHNE HEARD A HORN BLOWN OVERSEA FOR BATTLE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter51">CHAPTER LI. OF TWO CITIES THAT WERE BUILDED DIVERSELY, AND HOW YWAIN AND AITHNE HEARD A HORN BLOWN OVERSEA FOR BATTLE.</h2>
 
 <p>THEN said Ywain: Doubtless your saying is true, and well have I proved the gift: yet I marvel notwithstanding, for a man may wonder in despite of knowledge. And there is one matter concerning which I am still perplexed. And Aithne said to him: Say on. And he said to her: I am perplexed between two verities: for there is one truth of Paladore and another of Aladore, and though they be diverse yet they both have by seeming the nature of truth veritable. And many times my mind is in doubt concerning them: for in our life that now is we come and go between two realms, and I would that I might know which of them shall outdure other.</p>
 
@@ -1474,10 +1671,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter52">CHAPTER LII. OF A SHIP THAT WAS FULL OF LADIES AND LOVELY KNIGHTS, AND HOW YWAIN AND AITHNE DEPARTED WITH THEM OVER SEA.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter52">CHAPTER LII. OF A SHIP THAT WAS FULL OF LADIES AND LOVELY KNIGHTS, AND HOW YWAIN AND AITHNE DEPARTED WITH THEM OVER SEA.</h2>
 
 <p>THEN Ywain looked upon Aithne, and in one moment he remembered all her love and her kindness, and pain was mingled with his joy. And his heart was filled with a tumult past bearing, and he groaned aloud and cried: Ah! my beloved, what is this that has come upon us? For here is the land of our desire and the land of all loveliness and all delectable enchantments, and herein we might have had life enduring. But now I see well that there is no such fortune: for the horn has sounded, and the sound of it has power upon body and blood. And peace is gone from me suddenly, and I can by no means keep me from the fight: for the cause is a right cause and one that must be ransomed, yea, though all else be given and lost for it.</p>
 
@@ -1497,10 +1697,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter53">CHAPTER LIII. HOW YWAIN AND AITHNE CAME TO PALADORE THE LAST TIME, AND HOW THE SNOW FELL ALL NIGHT LONG.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter53">CHAPTER LIII. HOW YWAIN AND AITHNE CAME TO PALADORE THE LAST TIME, AND HOW THE SNOW FELL ALL NIGHT LONG.</h2>
 
 <p>THEN they looked upon that star, and as they looked they marvelled and were dismayed, for a great cloud came up and took the star from them utterly. And with the cloud came a wind, exceeding cold and bitter, and they perceived how that in one hour the year was turned to winter; and the wind got hold upon their bones and shrunk them, and their hearts were sick with silence and foreboding. Then the wind fell again suddenly, and the snow began to come thickly down the air, and it came upon their faces now driving and now feathering, in manner as the wind was still or gusty.</p>
 
@@ -1516,10 +1719,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter54">CHAPTER LIV. HOW THE HORN WAS GIVEN INTO YWAIN'S HAND, AND HOW HE SOUNDED THEREON A MORT ROYAL.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter54">CHAPTER LIV. HOW THE HORN WAS GIVEN INTO YWAIN'S HAND, AND HOW HE SOUNDED THEREON A MORT ROYAL.</h2>
 
 <p>AND when it began to lighten towards dawn, then they went forth out of the house and made to go by the way of the market-place. And the snow had ceased from falling and it lay upon the ground before them deep and white, for it was yet untrodden. So they drew their cloaks about their faces and went quickly, to the intent that they should be known of none: and at the first there was no living soul that met with them. But afterward they had sight of three or four which came towards them, and by seeming they were the servants of some great one, accompanying with their master homeward.</p>
 
@@ -1541,10 +1747,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter55">CHAPTER LV. HOW THE EAGLES FARED IN FIGHTING, AND HOW SIR RAINALD WOULD HAVE DEALT WITH YWAIN.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter55">CHAPTER LV. HOW THE EAGLES FARED IN FIGHTING, AND HOW SIR RAINALD WOULD HAVE DEALT WITH YWAIN.</h2>
 
 <p>THEN when the sound of the horn had ceased Ywain held up his hand and stayed the noise of the shouting, and he spoke and said to the Eagles how they should go with him to take the gate of the city, and so to bring Hubert in. And they all assented thereto and made them ready. But Ywain turned him about and looked upon Aithne, and a sharp pain went through his heart and he said to her: I am distressed, O my beloved, because of you: for to-day by the space of an hour we must be parted one from other. And I know not how to leave you, for I fear the great ones of Paladore. And Aithne answered him lightly, and she said: Go now, and have no fear: for there is a chapel beside this Hall, and it is long time forsaken and forgotten, and there shall I be in sanctuary, until you come again. Then Ywain looked sadly at her, and she said to him: And if so be that you come not again, then in some other place shall you and I be met together. And she took him by the hand and led him in, and he went throughout the Hall and found the chapel as she had said: and they came by a bailey from the Hall into the chapel, and there they kissed and parted in the best manner that might be, as of lovers parting in dread.</p>
 
@@ -1568,10 +1777,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter56">CHAPTER LVI. HOW YWAIN BEHELD A DEAD MAN LAID ON BIER.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter56">CHAPTER LVI. HOW YWAIN BEHELD A DEAD MAN LAID ON BIER.</h2>
 
 <p>NOW when Sir Rainald was departed the men of the Tower made no more show of fighting, but they drew off a little space and set a watch upon the Eagles: and they fetched wood and kindled them a fire, for the day began to darken and the snow was cold about their feet. And the Eagles kept their guard upon the steps, for they durst not move therefrom, but their hope was that Hubert and his should presently break in and rescue them.</p>
 
@@ -1593,10 +1805,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter57">CHAPTER LVII. OF A BATTLE BY FIRE AND HOW YWAIN AND AITHNE WERE NO MORE SEEN IN PALADORE.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter57">CHAPTER LVII. OF A BATTLE BY FIRE AND HOW YWAIN AND AITHNE WERE NO MORE SEEN IN PALADORE.</h2>
 
 <p>THEN Ywain heard a voice which called him by his name, and it was the voice of Aithne, and she came to him and stood beside him. And he said to her: Come not nigh the bier, for there is one thereon which hath a secret in his face. And she said: I also have seen that face, for I saw it in a dream, And for the secret, be not troubled overmuch, for the end is coming when all things shall be made plain. Then said Ywain: O beloved, I doubt not: but when I looked upon the dead I trembled, and I tremble yet, for the face will not be gone from me.</p>
 
@@ -1613,10 +1828,13 @@
 
  
 
+</div>
 
 
 
-<h2 id="chapter58">CHAPTER LVIII. OF A TOMB THAT WAS FOUND IN PALADORE, AND OF DIVERS SAYINGS THAT WERE HEARD CONCERNING IT.</h2>
+<div class="chapter-pages">
+
+<h2 class="chapter" id="chapter58">CHAPTER LVIII. OF A TOMB THAT WAS FOUND IN PALADORE, AND OF DIVERS SAYINGS THAT WERE HEARD CONCERNING IT.</h2>
 
 <p>IN the same hour came a noise of shouting from the West, and Hubert and his broke in upon the battle. And they struck upon the spearmen as the wood-knife strikes upon the ashlings, so that there was neither resistance nor recovery, but all laid to length upon the ground. And when they had made an end of their enemies, then they sought busily to find their fellows, if there might be any with the life yet in them. And they found of them one here and another there, for they were buried beneath the slain: but Ywain and Aithne they found not, neither sign of them, neither report.</p>
 
@@ -1627,7 +1845,10 @@
 <div class="the-end">THE END.</div>
  
 
+</div>
 
 
+
+<script src="/aladore-book/assets/pagedjs/paged.polyfill.js"></script>
 </body>
 </html>
