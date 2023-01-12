@@ -1,5 +1,7 @@
 # aladore-book
 
+<https://evanwill.github.io/aladore-book/> 
+
 A digital edition of Henry Newbolt's classic fantasy novel Aladore (1914).
 Based on the text from the [Digital Aladore](https://digitalaladore.wordpress.com/) project.
 
